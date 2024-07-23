@@ -1,2 +1,2 @@
-This mod uses tiles from the modsnZombie Highschool, Sierra Madre, and No More Ugly CBM.
+This mod uses tiles from the mods Zombie Highschool, Sierra Madre, and No More Ugly CBM.
 The foundational code of this mod was by the original creator of Hope Against The Dark, 10taiSenshi. My work begins from the Demon of the Moon Palace profession.
