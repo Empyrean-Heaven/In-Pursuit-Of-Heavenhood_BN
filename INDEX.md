@@ -116,7 +116,7 @@ Judgment: A unique playstyle awaits. With Empyrean, one may possibly survive a M
 
 # Standalone Traits and Spells
 
-### Conjoined Soul (Trait)
+### Conjoined Soul (Trait, Can Be Chosen At The Starting Screen)
 Description: You had a birthright secret you revealed to no other. You were born with two souls in one body. The dichotomy early on was detrimental to your mental fortitude, but you pushed on, and at last, the voices died down to become one singular voice.
 
 Unique Spells: Separation of the Souls (astral project yourself out of your body, it leaves an item called your corpse which you need to craft an item with to become material again, and in this state you have close to 0 carry weight, can wear nothing, and are untraceable and undamageable besides for electric damage which harms you fatally), and Sacrifice of the Souls (destroy one of your souls to heal a great amount while falling into a coma).
