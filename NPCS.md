@@ -1,5 +1,5 @@
 # Introduction
-The mods adds several NPC classes, some of which are capable of casting spells. They are nearly mirror images of their respective player professions.
+The mod adds several NPC classes, some of which are capable of casting spells. They are nearly mirror images of their respective player professions.
 
 ### Lunar Demon
 Equivalent to the profession Demon of the Moon Palace. Can cast moonblades but it is also hostile to the NPC so it may result in ludicrous scenarios.
