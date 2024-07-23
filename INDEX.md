@@ -70,7 +70,7 @@ Unique Trait: Madgod (a lot of health and some mana and mana regen).
 
 Unique Spells: Omnidirectional Dismantle (unleash 40 attacks per cast and cause on average 1,800 damage), Malevolent Shrine (cause 30 damage per second to everything caught in it besides you for 64 seconds), and Summon Mahoraga (summons the most powerful monster to quite possibly grace the Cataclysm, has a chance to be hostile).
 
-Judgment: Funnily enough, the only professions capable of taking down Mahoraga may be The Accursed Hegemon and max power The Strongest. Mahoraga has 1,111 hp and regenrates 111 hp per turn. Malevolent Shrine does nothing to it. Omnidirectional Dismantle can take it down. Maximum Cursed Purple may take down Mahoraga in a single cast. Through extensive testing, I found out nothing survives Malevolent Shrine.
+Judgment: Funnily enough, the only professions capable of taking down Mahoraga may be The Accursed Hegemon and max power The Strongest. Mahoraga has 1,111 hp and regenrates 111 hp per turn. Malevolent Shrine does nothing to it. Omnidirectional Dismantle can take it down. Maximum Cursed Purple may take down Mahoraga in a single cast. Through extensive testing, I found out basically nothing survives Malevolent Shrine.
 
 ### Reluctant Renegade
 Description: The patriarch was adamant that the bloodline remain pure and removed from taint. You were taint. Out of necessity, you massacred your clan. If heaven has eyes, how are you still alive? O heathen wretched may ye be, a wandering wicked beast.
