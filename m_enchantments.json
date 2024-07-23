@@ -1,0 +1,593 @@
+[
+  {
+    "type": "enchantment",
+    "id": "hadessystem",
+    "condition": "ACTIVE",
+    "emitter": "emit_hot_air4_blast",
+    "values": [
+      { "value": "STRENGTH", "multiply": 3.0, "add": 0 },
+      { "value": "DEXTERITY", "multiply": 1.0, "add": 0 },
+      { "value": "PERCEPTION", "multiply": 3.0, "add": 0 },
+      { "value": "FATIGUE", "multiply": 10.0, "add": 0 },
+      { "value": "SPEED", "multiply": 2.0, "add": 0 }
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_kokushibo",
+    "ench_effects": [ { "effect": "effect_kokushibo", "intensity": 1 } ],
+    "values": [ { "value": "BONUS_DODGE", "add": 24 } ],
+    "hit_you_effect": [
+      {
+        "id": "summon_moonblades",
+        "hit_self": true,
+        "once_in": 6,
+        "message": "A dance of blades dreamed of moonlight serenades along with you!",
+        "npc_message": "A dance of blades dreamed of moonlight serenades along with %1$s!"
+      }
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_npc_jojo",
+    "hit_me_effect": [
+      {
+        "id": "npc_star_platinum",
+        "hit_self": true,
+        "once_in": 20,
+        "message": "Not applicable.",
+        "npc_message": "The ground shakes as %1$s shouts, 'Star Platinum!'"
+      },
+      {
+        "id": "the_world",
+        "hit_self": true,
+        "once_in": 20,
+        "message": "Not applicable.",
+        "npc_message": "The ground shakes as %1$s shouts, 'Star Platinum: The World!'"
+      }
+    ],
+    "hit_you_effect": [
+      {
+        "id": "king_crimson",
+        "hit_self": true,
+        "once_in": 20,
+        "message": "Not applicable.",
+        "npc_message": "The ground shakes as %1$s shouts, 'Star Platinum: King Crimson!'"
+      },
+      {
+        "id": "maiden_heaven",
+        "hit_self": true,
+        "once_in": 20,
+        "message": "Not applicable.",
+        "npc_message": "The ground shakes as %1$s shouts, 'Star Platinum: Maiden Heaven!'"
+      }
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_wonder_of_u",
+    "ench_effects": [ { "effect": "effect_wonder_of_u", "intensity": 1 } ],
+    "hit_me_effect": [
+      {
+        "id": "wonder_of_u",
+        "hit_self": false,
+        "once_in": 2,
+        "message": "And that's the wonder, the 『Wonder of U』!",
+        "npc_message": "The colors bleed into the same motley grey as the space surrounding %1$s distorts while you hear a distant humming of a jovial tune!"
+      }
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_gojo",
+    "ench_effects": [ { "effect": "effect_gojo", "intensity": 1 } ],
+    "emitter": "emit_glimmer"
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_npc_gojo",
+    "ench_effects": [ { "effect": "effect_gojo", "intensity": 1 } ],
+    "hit_me_effect": [
+      {
+        "id": "npc_limitless_void",
+        "hit_self": true,
+        "once_in": 20,
+        "message": "Not applicable.",
+        "npc_message": "The ground shakes as %1$s shouts, 'Domain Expansion: Limitless Void!'"
+      },
+      {
+        "id": "curse_blue",
+        "hit_self": true,
+        "once_in": 20,
+        "message": "Not applicable.",
+        "npc_message": "The ground shakes as %1$s shouts, 'Curse Technique: Blue!'"
+      }
+    ],
+    "hit_you_effect": [
+      {
+        "id": "curse_red",
+        "hit_self": true,
+        "once_in": 20,
+        "message": "Not applicable.",
+        "npc_message": "The ground shakes as %1$s shouts, 'Curse Technique: Red!'"
+      },
+      {
+        "id": "npc_curse_purple",
+        "hit_self": false,
+        "once_in": 20,
+        "message": "Not applicable.",
+        "npc_message": "The ground shakes as %1$s shouts, 'Imaginary Technique: Hollow Purple!'"
+      }
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_sukuna",
+    "ench_effects": [ { "effect": "effect_sukuna", "intensity": 1 } ],
+    "emitter": "emit_joint_trail"
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_npc_sukuna",
+    "ench_effects": [ { "effect": "effect_sukuna", "intensity": 1 } ],
+    "hit_me_effect": [
+      {
+        "id": "npc_summon_mahoraga",
+        "hit_self": true,
+        "once_in": 20,
+        "message": "Not applicable.",
+        "npc_message": "The ground shakes as %1$s shouts, 'GIVE IT UP FOR BIG RAGA THE OPP STOPPA!'"
+      }
+    ],
+    "hit_you_effect": [
+      {
+        "id": "malevolent_shrine",
+        "hit_self": true,
+        "once_in": 20,
+        "message": "Not applicable.",
+        "npc_message": "The ground shakes as %1$s shouts, 'Domain Expansion: Let Him Cook!'"
+      }
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_toji",
+    "ench_effects": [ { "effect": "effect_toji", "intensity": 1 } ],
+    "values": [ { "value": "BONUS_DODGE", "add": 18 } ],
+    "hit_me_effect": [
+      {
+        "id": "toji_displace",
+        "hit_self": true,
+        "once_in": 4,
+        "message": "The world blurs as you alternate localities!",
+        "npc_message": "The world blurs as %1$s alternate localities!"
+      }
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_immaterial",
+    "ench_effects": [ { "effect": "effect_ethereal", "intensity": 1 } ],
+    "values": [ { "value": "ARMOR_ELEC", "add": 200 } ],
+    "hit_me_effect": [
+      {
+        "id": "ether_wound",
+        "hit_self": true,
+        "once_in": 1,
+        "message": "A shudder passes through your quasi-incorporeal form as it was perceived and attacked albeit uninjured. You fear something has sensed this abnormality and is scanning the horizon for your presence.",
+        "npc_message": "Not applicable."
+      }
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_bear_form",
+    "mutations": [
+      "THRESH_URSINE",
+      "GROWL",
+      "PAWS_LARGE",
+      "MUZZLE_BEAR",
+      "URSINE_EARS",
+      "SAPIOVORE",
+      "PRED2",
+      "SMELLY2",
+      "DEFORMED2",
+      "PONDEROUS1",
+      "PADDED_FEET",
+      "CLAWS",
+      "URSINE_FUR",
+      "NIGHTVISION2"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_plant_form",
+    "mutations": [
+      "THRESH_PLANT",
+      "COLDBLOOD4",
+      "CHLOROMORPH",
+      "ROOTS3",
+      "VINES2",
+      "SUNLIGHT_DEPENDENT",
+      "PONDEROUS3",
+      "DEFORMED2",
+      "SAPROPHAGE",
+      "ROSEBUDS",
+      "TRANSPIRATION",
+      "LEAVES3",
+      "LEAVES",
+      "THORNS",
+      "BARK",
+      "FASTHEALER2",
+      "BADHEARING",
+      "HEAVYSLEEPER"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_insect_form",
+    "mutations": [
+      "THRESH_INSECT",
+      "INSECT_ARMS_OK",
+      "COLDBLOOD3",
+      "TROGLO",
+      "PROBOSCIS",
+      "DEFORMED",
+      "WINGS_BUTTERFLY",
+      "MANDIBLES",
+      "ANTENNAE",
+      "COMPOUND_EYES",
+      "PHEROMONE_INSECT",
+      "INSECT_RESERVOIR",
+      "INFRARED",
+      "ANIMALDISCORD",
+      "PROJUNK",
+      "HEAVYSLEEPER",
+      "TERRIFYING",
+      "POISRESIST",
+      "NIGHTVISION3",
+      "EASYSLEEPER",
+      "LIGHTEATER",
+      "QUICK",
+      "GOODCARDIO"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_spider_form",
+    "mutations": [
+      "THRESH_SPIDER",
+      "ARACHNID_ARMS_OK",
+      "HISS",
+      "COLDBLOOD2",
+      "CARNIVORE",
+      "TROGLO",
+      "DEFORMED",
+      "WEB_WALKER",
+      "WEB_SPINNER",
+      "WEB_BRIDGE",
+      "FANGS_SPIDER",
+      "SAPIOVORE",
+      "PRED2",
+      "POISONOUS2",
+      "CF_HAIR",
+      "CHITIN_FUR2",
+      "INFRARED",
+      "NIGHTVISION3",
+      "POISRESIST",
+      "FLEET"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_slime_form",
+    "mutations": [
+      "ACIDBLOOD",
+      "ACIDPROOF",
+      "THRESH_SLIME",
+      "AMORPHOUS",
+      "VISCOUS",
+      "RADIOACTIVE1",
+      "UNSTABLE",
+      "TROGLO",
+      "THIRST2",
+      "HUNGER2",
+      "HOLLOW_BONES",
+      "DEFORMED3",
+      "SMELLY2",
+      "INT_SLIME",
+      "SLIME_HANDS",
+      "POISONOUS",
+      "PARAIMMUNE",
+      "RADIOGENIC",
+      "REGEN",
+      "CHEMIMBALANCE",
+      "POISRESIST"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_fish_form",
+    "mutations": [
+      "SHARKTEETH",
+      "ELECTRORECEPTORS",
+      "FRESHWATEROSMOSIS",
+      "TOXICFLESH",
+      "WATERSLEEP",
+      "SEESLEEP",
+      "AMPHIBIAN",
+      "THRESH_FISH",
+      "COLDBLOOD",
+      "SLIMY",
+      "THIRST2",
+      "DEFORMED",
+      "SMELLY2",
+      "TAIL_FIN",
+      "SLEEK_SCALES",
+      "GILLS",
+      "MEMBRANE",
+      "NIGHTVISION3",
+      "LIGHTEATER",
+      "QUICK",
+      "GOODCARDIO"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_rat_form",
+    "mutations": [
+      "THRESH_RAT",
+      "GROWL",
+      "PAWS",
+      "TROGLO2",
+      "MET_RAT",
+      "VOMITOUS",
+      "MUZZLE_RAT",
+      "DEFORMED3",
+      "WHISKERS_RAT",
+      "MOUSE_EARS",
+      "TAIL_RAT",
+      "EATDEAD",
+      "INFRESIST",
+      "CLAWS_ST",
+      "FUR",
+      "INCISORS",
+      "NIGHTVISION2"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_lupine_form",
+    "mutations": [
+      "THRESH_LUPINE",
+      "SHOUT3",
+      "SNARL",
+      "CARNIVORE",
+      "PAWS",
+      "PERSISTENCE_HUNTER2",
+      "HEAVYSLEEPER2",
+      "HUNGER2",
+      "MUZZLE",
+      "STRONG_LEGS",
+      "LUPINE_FUR",
+      "LUPINE_EARS",
+      "PRED2",
+      "TAIL_FLUFFY",
+      "PADDED_FEET",
+      "KILLER",
+      "CLAWS",
+      "GOODCARDIO",
+      "NIGHTVISION2",
+      "ANTIJUNK",
+      "SLEEPY",
+      "ADRENALINE",
+      "TERRIFYING",
+      "GOURMAND",
+      "DEFT"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_cattle_form",
+    "mutations": [
+      "THRESH_CATTLE",
+      "PONDEROUS2",
+      "HERBIVORE",
+      "MINOTAUR",
+      "DEFORMED",
+      "TAIL_CATTLE",
+      "HORNS",
+      "HOOVES",
+      "PHEROMONE_MAMMAL",
+      "FUR",
+      "THICKSKIN",
+      "NIGHTVISION"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_cephalopod_form",
+    "mutations": [
+      "THRESH_CEPHALOPOD",
+      "LEG_TENT_BRACE",
+      "LEG_TENTACLES",
+      "SHELL",
+      "COLDBLOOD",
+      "SLIMY",
+      "THIRST2",
+      "DEFORMED",
+      "MOUTH_TENTACLES",
+      "GILLS_CEPH",
+      "CEPH_EYES",
+      "NIGHTVISION3"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_bird_form",
+    "mutations": [
+      "THRESH_BIRD",
+      "BEAK_PECK",
+      "HOLLOW_BONES",
+      "WINGS_BIRD",
+      "FLEET2",
+      "GIZZARD",
+      "TALONS",
+      "DOWN",
+      "GLASSJAW",
+      "BADBACK",
+      "EAGLEEYED",
+      "LIGHTSTEP",
+      "DEFT",
+      "NIGHTVISION",
+      "LIGHTEATER",
+      "QUICK"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_lizard_form",
+    "mutations": [
+      "THRESH_LIZARD",
+      "HISS",
+      "COLDBLOOD4",
+      "CARNIVORE",
+      "TROGLO",
+      "MUZZLE_LONG",
+      "SLIT_NOSTRILS",
+      "SAPIOVORE",
+      "PRED2",
+      "TAIL_THICK",
+      "TALONS",
+      "SCALES",
+      "MEMBRANE",
+      "REGEN_LIZ",
+      "FASTHEALER2",
+      "LIZ_IR",
+      "THICKSKIN"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_medical_form",
+    "mutations": [
+      "ACIDBLOOD",
+      "ACIDPROOF",
+      "THRESH_MEDICAL",
+      "UNSTABLE",
+      "HUNGER",
+      "VOMITOUS",
+      "MUT_JUNKIE",
+      "NOPAIN",
+      "CENOBITE",
+      "MASOCHIST_MED",
+      "PARAIMMUNE",
+      "INFRESIST",
+      "RADIOGENIC",
+      "MOODSWINGS",
+      "JITTERY",
+      "NARCOLEPTIC",
+      "SCHIZOPHRENIC",
+      "CHEMIMBALANCE",
+      "ADDICTIVE",
+      "LIGHTWEIGHT",
+      "INSOMNIA",
+      "HEAVYSLEEPER",
+      "SELFAWARE",
+      "POISRESIST",
+      "PAINRESIST",
+      "FASTHEALER"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_chimera_form",
+    "mutations": [
+      "ACIDBLOOD",
+      "ACIDPROOF",
+      "THRESH_CHIMERA",
+      "SHOUT3",
+      "SNARL",
+      "CARNIVORE",
+      "CHAOTIC",
+      "ROT2",
+      "THIRST",
+      "HUNGER3",
+      "DEFORMED3",
+      "MUT_JUNKIE",
+      "SAPIOVORE",
+      "PRED2",
+      "TAIL_CLUB",
+      "HORNS_CURLED",
+      "EATHEALTH",
+      "SABER_TEETH",
+      "EATDEAD",
+      "SAPROVORE",
+      "HOOVES",
+      "PARAIMMUNE",
+      "TALONS",
+      "PATCHSKIN2",
+      "LIGHTFUR",
+      "SCALES",
+      "FANGS",
+      "NIGHTVISION2",
+      "CHEMIMBALANCE",
+      "ADRENALINE",
+      "TERRIFYING",
+      "THICKSKIN",
+      "QUICK",
+      "GOURMAND"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_elfa_form",
+    "mutations": [
+      "THRESH_ELFA",
+      "HOLLOW_BONES",
+      "BEAUTIFUL3",
+      "PARAIMMUNE",
+      "ROSEBUDS",
+      "LEAVES",
+      "PLANTSKIN",
+      "ELFAEYES",
+      "NIGHTVISION3",
+      "ANTIJUNK",
+      "BADBACK",
+      "LIGHTSTEP",
+      "WAKEFUL3",
+      "ANIMALEMPATH2",
+      "FEYHEARING"
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_mouse_form",
+    "mutations": [
+      "THRESH_MOUSE",
+      "NO_THIRST",
+      "MET_RAT",
+      "CRAFTY",
+      "WHISKERS_RAT",
+      "MOUSE_EARS",
+      "TAIL_RAT",
+      "EATDEAD",
+      "FELINE_FUR",
+      "LIGHT_BONES",
+      "NIGHTVISION2",
+      "JITTERY",
+      "ANIMALDISCORD2",
+      "ADDICTIVE",
+      "PROJUNK2",
+      "SLEEPY",
+      "EAGLEEYED",
+      "GOURMAND",
+      "DEFT",
+      "EASYSLEEPER2",
+      "QUICK",
+      "GOODCARDIO2",
+      "GOODHEARING",
+      "FLEET"
+    ]
+  }
+]

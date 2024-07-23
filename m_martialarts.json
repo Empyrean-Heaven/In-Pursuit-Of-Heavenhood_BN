@@ -1,0 +1,261 @@
+[
+  {
+    "id": "style_eskrima",
+    "copy-from": "style_eskrima",
+    "type": "martial_art",
+    "name": "Eskrima",
+    "extend": { "weapons": [ "megucahopewand" ] }
+  },
+  {
+    "id": "style_fencing",
+    "copy-from": "style_fencing",
+    "type": "martial_art",
+    "name": "Fencing",
+    "extend": { "weapons": [ "megucarapiergun" ] }
+  },
+  {
+    "id": "style_krav_maga",
+    "copy-from": "style_krav_maga",
+    "type": "martial_art",
+    "name": "Krav Maga",
+    "extend": { "weapons": [ "megucarapiergun", "megucahopewand" ] }
+  },
+  {
+    "id": "style_swordsmanship",
+    "copy-from": "style_swordsmanship",
+    "type": "martial_art",
+    "name": "Medieval Swordsmanship",
+    "extend": { "weapons": [ "megucarapiergun" ] }
+  },
+  {
+    "id": "style_ninjutsu",
+    "copy-from": "style_ninjutsu",
+    "type": "martial_art",
+    "name": "Ninjutsu",
+    "extend": { "weapons": [ "megucarapiergun", "megucahopewand" ] }
+  },
+  {
+    "id": "style_niten",
+    "copy-from": "style_niten",
+    "type": "martial_art",
+    "name": "Niten Ichi-Ryu",
+    "extend": { "weapons": [ "megucarapiergun" ] }
+  },
+  {
+    "type": "martial_art",
+    "id": "style_ccrider",
+    "name": { "str": "Masked Rider C.C Special" },
+    "description": "The fighting techniques of those who fight for Justice! To protect the down trodden, this martial art for the super human was created! It is inspired by heroes, sentais and cartoons, but it seems to work so you continue using it.",
+    "initiate": [
+      "You strike a powerful pose, before shifting into an agile fighting pose.",
+      "%s strikes a powerful pose and readies their fists."
+    ],
+    "learn_difficulty": 1,
+    "primary_skill": "unarmed",
+    "arm_block": 1,
+    "leg_block": 2,
+    "static_buffs": [
+      {
+        "id": "buff_ccrider",
+        "name": "C.C Pose",
+        "description": "A powerful pose and stance helps you both feel confident and more balanced to take on blows.\n\n+2 Bash damage, Blocked damge reduced by 80% of Strength.",
+        "unarmed_allowed": true,
+        "flat_bonuses": [ { "stat": "block", "scaling-stat": "str", "scale": 0.8 }, { "stat": "damage", "type": "bash", "scale": 2.0 } ]
+      }
+    ],
+    "onmove_buffs": [
+      {
+        "id": "buff_ccrider_onmove",
+        "name": "Swift Rider",
+        "description": "A hero is untouched by evil, and thus you must yourself not let yourself be hit as you move.\n\n+1.0 Dodge skill.\nLasts for 2 turns.  Stacks 3 times.",
+        "skill_requirements": [ { "name": "unarmed", "level": 3 } ],
+        "unarmed_allowed": true,
+        "buff_duration": 2,
+        "max_stacks": 3,
+        "flat_bonuses": [ { "stat": "dodge", "scale": 1.0 } ]
+      }
+    ],
+    "ondodge_buffs": [
+      {
+        "id": "buff_ccrider_ondodge",
+        "name": "Keen Eye",
+        "description": "An opening has been seen!\n\n+25% Bash damage.\nLasts for 2 turn.",
+        "skill_requirements": [ { "name": "unarmed", "level": 5 } ],
+        "unarmed_allowed": true,
+        "buff_duration": 2,
+        "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.25 } ]
+      }
+    ],
+    "techniques": [ "tec_ccpunch", "tec_cccounterkick", "tec_cc_rapid", "tec_cc_crush", "tec_cc_spin", "tech_cc_shockwave" ],
+    "weapon_category": [ "TONFAS", "FIST_WEAPONS" ]
+  },
+  {
+    "type": "martial_art",
+    "id": "style_dragonslayer",
+    "name": { "str": "Dragon Slayer Arms" },
+    "description": "The armor you made had its own quirks to get used to, but that is its own strength as well. Needed to wield Naegling properly.",
+    "initiate": [
+      "You take a deep breath, and heave Naegling onto your shoulder.",
+      "%s takes a deep breath, and heaves Naegling onto their shoulder."
+    ],
+    "learn_difficulty": 1,
+    "strictly_melee": true,
+    "primary_skill": "cutting",
+    "arm_block": 1,
+    "static_buffs": [
+      {
+        "id": "buff_dragonslayer",
+        "name": "Zornhut",
+        "description": "A ready stance, ready to both attack and defend.\n\n+2 Cut damage, Blocked damge reduced by 80% of Strength.",
+        "melee_allowed": true,
+        "flat_bonuses": [ { "stat": "block", "scaling-stat": "str", "scale": 0.8 }, { "stat": "damage", "type": "cut", "scale": 2.0 } ]
+      }
+    ],
+    "techniques": [ "naegling_straight", "naegling_swift", "naegling_crit", "naegling_wide", "naegling_impale" ],
+    "weapons": "zweihander_meguca"
+  },
+  {
+    "type": "martial_art",
+    "id": "style_kokushibo",
+    "name": { "str": "Lunar Reflection" },
+    "description": "As the phases of the moon wax and wane to completion and annihilation, your blade sheathes and unsheathes to the throes of life and death.",
+    "initiate": [
+      "You exhale an illusory, dreamy breath as you align with the pale moon.",
+      "%s performs a series of intricate hand signs."
+    ],
+    "learn_difficulty": 9,
+    "primary_skill": "cutting",
+    "strictly_melee": true,
+    "static_buffs": [
+      {
+        "id": "buff_kokushibo_static",
+        "name": "Fading Starlight",
+        "description": "The allotted hours of the sun are past. Trickles of moonlight grace the lands like silver dew drops.\n\nMelee and unarmed attacks generate 0 noise. Moving generates 1/2 as much noise. +24 Block attempts. Blocked damage reduced by 240% of Dexterity.",
+        "flat_bonuses": [ { "stat": "block", "scaling-stat": "dex", "scale": 2.4 } ],
+        "bonus_blocks": 24,
+        "melee_allowed": true,
+        "quiet": true,
+        "stealthy": true
+      }
+    ],
+    "onhit_buffs": [
+      {
+        "id": "buff_kokushibo_onhit",
+        "name": "Stellar Initiative",
+        "description": "It is now the moment to unleash your secret techniques of the evanescent moon.\n\nAccuracy increased by 240% of Dexterity.\nLast 1 turns. Enables the Nine Moons technique.",
+        "melee_allowed": true,
+        "buff_duration": 1,
+        "flat_bonuses": [ { "stat": "hit", "scaling-stat": "dex", "scale": 2.4 } ]
+      }
+    ],
+    "onmove_buffs": [
+      {
+        "id": "buff_kokushibo_onmove",
+        "name": "Moonlit Shadow",
+        "description": "Only the soft blessings of the sun mirror shall envelop you whole.\n\n+1 Dodge attempt, +4.8 movement speed.\nLast 1 turn, stacks 24 times.",
+        "melee_allowed": true,
+        "max_stacks": 24,
+        "buff_duration": 1,
+        "bonus_dodges": 1,
+        "flat_bonuses": [ { "stat": "speed", "scale": 4.8 } ]
+      }
+    ],
+    "onkill_buffs": [
+      {
+        "id": "buff_kokushibo_onkill",
+        "name": "Once In A Blood Moon",
+        "description": "As the moon is soaked in brilliant red, crimson to the core, the true bloodshed awaits.\n\n+2 Dodge attempts, Armor penetration increased by 20% of Dexterity.\nLasts 2400 turns, stacks 24 times.",
+        "melee_allowed": true,
+        "buff_duration": 2400,
+        "max_stacks": 24,
+        "bonus_dodges": 2,
+        "flat_bonuses": [
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.2 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.2 }
+        ]
+      }
+    ],
+    "techniques": [
+      "first_moon",
+      "second_moon",
+      "third_moon",
+      "fourth_moon",
+      "fifth_moon",
+      "sixth_moon",
+      "seventh_moon",
+      "eighth_moon",
+      "ninth_moon"
+    ],
+    "weapons": "lunarblade"
+  },
+  {
+    "type": "martial_art",
+    "id": "style_wild",
+    "name": { "str": "Breath of the Wild" },
+    "description": "Honed by eons of coexistence with Madame Nature, this primal and savage art is the apex and pinnacle of what a mortal may achieve without divine intervention.",
+    "initiate": [
+      "You take a deep breath and force the oncoming air to surge and roar through your vitals.",
+      "%s assumes a toad-like stance."
+    ],
+    "learn_difficulty": 10,
+    "primary_skill": "unarmed",
+    "arm_block": 2,
+    "leg_block": 2,
+    "static_buffs": [
+      {
+        "id": "buff_wild_static",
+        "name": "Tortured Skin",
+        "description": "By excruciating reflex, you twist and turn your body when blocking to mitigate much of the damage.\n\nBlocked damage reduced by 60% of Strength. Cannot be grabbed or thrown.",
+        "skill_requirements": [ { "name": "unarmed", "level": 2 } ],
+        "unarmed_allowed": true,
+        "throw_immune": true,
+        "flat_bonuses": [ { "stat": "block", "scaling-stat": "str", "scale": 0.6 } ]
+      }
+    ],
+    "onmove_buffs": [
+      {
+        "id": "buff_wild_onmove",
+        "name": "Thrill of the Hunt",
+        "description": "Chase them, hunt them, corral them, rip, tear, shred, blood, fiend, roar!\n\n+6 bash, cut, and stab armor.\nLasts 6 turns. Stacks 6 times.",
+        "skill_requirements": [ { "name": "unarmed", "level": 4 } ],
+        "unarmed_allowed": true,
+        "buff_duration": 6,
+        "max_stacks": 6,
+        "flat_bonuses": [
+          { "stat": "armor", "type": "bash", "scale": 6.0 },
+          { "stat": "armor", "type": "cut", "scale": 6.0 },
+          { "stat": "armor", "type": "stab", "scale": 6.0 }
+        ]
+      }
+    ],
+    "ongethit_buffs": [
+      {
+        "id": "buff_wild_ongethit",
+        "name": "Primeval Edging",
+        "description": "Punch, hit, get punched, get hit, it's all a dance!\n\n+12 bash, cut, and stab armor. Bash damage increased by 20% of Strength.\nStacks 2 times, lasts 2 turns.",
+        "skill_requirements": [ { "name": "unarmed", "level": 3 } ],
+        "unarmed_allowed": true,
+        "max_stacks": 2,
+        "buff_duration": 2,
+        "flat_bonuses": [
+          { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 0.2 },
+          { "stat": "armor", "type": "bash", "scale": 12.0 },
+          { "stat": "armor", "type": "cut", "scale": 12.0 },
+          { "stat": "armor", "type": "stab", "scale": 12.0 }
+        ]
+      }
+    ],
+    "onpause_buffs": [
+      {
+        "id": "buff_wild_onpause",
+        "name": "Ouroborus Syndrome",
+        "description": "You halt all offense for a brief moment and withdraw into your flesh.\n\n+6 Block attempts.\nLasts 2 turns.",
+        "skill_requirements": [ { "name": "unarmed", "level": 3 } ],
+        "unarmed_allowed": true,
+        "buff_duration": 2,
+        "bonus_blocks": 6
+      }
+    ],
+    "techniques": [ "tec_counter", "tec_break", "tec_pickle_knockback" ]
+  }
+]

@@ -1,0 +1,478 @@
+[
+  {
+    "type": "profession",
+    "id": "meguca_pink",
+    "name": "Prisma Pink",
+    "description": "The world has fallen. Darkness and despair rules the land, but hope yet remains. Grasp your fate in your hands, Prisma Pink! As long as you live, hope will never die!",
+    "points": 13,
+    "spells": [
+      { "id": "transformmegucahope", "level": 0 },
+      { "id": "ph_spell1", "level": 0 },
+      { "id": "ph_spell2", "level": 0 },
+      { "id": "ph_spell3", "level": 0 },
+      { "id": "ph_spell4", "level": 0 },
+      { "id": "altus_aqua_crystal", "level": 0 },
+      { "id": "meguca_repairplate", "level": 0 }
+    ],
+    "traits": [ "meguca_hope" ],
+    "skills": [ { "level": 3, "name": "spellcraft" }, { "level": 2, "name": "dodge" } ],
+    "items": {
+      "both": {
+        "items": [
+          "longshirt",
+          "socks",
+          "sneakers",
+          "ZSG",
+          "backpack",
+          "wristwatch",
+          "prismpinkbook",
+          "megucahopewand",
+          "smart_phone",
+          "medukarepair"
+        ]
+      },
+      "male": [ "pants", "boxer_shorts" ],
+      "female": [ "skirt", "bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "meguca_aqua",
+    "name": "Altus Aqua",
+    "description": "The sinners has flooded the world with wretched creatures. Elegant and deadly, wring peace from their defeat! Once more, Altus Aqua, your hands shall bring back law upon these lands!",
+    "points": 13,
+    "spells": [
+      { "id": "transformmegucacalm", "level": 0 },
+      { "id": "altus_aqua_crystal", "level": 0 },
+      { "id": "meguca_repairplate", "level": 0 },
+      { "id": "aa_spell1", "level": 0 },
+      { "id": "aa_spell2", "level": 0 },
+      { "id": "aa_spell3", "level": 0 },
+      { "id": "aa_spell4", "level": 0 }
+    ],
+    "skills": [ { "level": 2, "name": "spellcraft" }, { "level": 2, "name": "pistol" }, { "level": 2, "name": "dodge" } ],
+    "traits": [ "meguca_calm" ],
+    "items": {
+      "both": {
+        "items": [
+          "dress_shirt",
+          "socks",
+          "dress_shoes",
+          "ZSG",
+          "backpack",
+          "wristwatch",
+          "altusaquabook",
+          "megucarapiergun",
+          "smart_phone",
+          "medukarepair"
+        ]
+      },
+      "male": [ "pants", "boxer_shorts" ],
+      "female": [ "skirt", "blazer", "unitard" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "meguca_cream",
+    "name": "Crush Cream",
+    "description": "The cries of the helpless innocent had filled the world for too long! Justice is here! Judgement is here! Crush Cream, Transform!",
+    "points": 13,
+    "spells": [
+      { "id": "transformmegucafeeling", "level": 0 },
+      { "id": "cc_spell4", "level": 0 },
+      { "id": "meguca_repairplate", "level": 0 },
+      { "id": "altus_aqua_crystal", "level": 0 }
+    ],
+    "skills": [ { "level": 2, "name": "unarmed" }, { "level": 2, "name": "melee" }, { "level": 2, "name": "dodge" } ],
+    "traits": [ "meguca_feeling" ],
+    "vehicle": "motorcycle_sidecart",
+    "items": {
+      "both": {
+        "items": [
+          "tshirt",
+          "socks",
+          "sneakers",
+          "ZSG",
+          "backpack",
+          "wristwatch",
+          "crushcreambook",
+          "megucafeelingknuckles",
+          "smart_phone",
+          "medukarepair"
+        ]
+      },
+      "male": [ "pants", "under_armor_shorts" ],
+      "female": [ "skirt", "under_armor", "under_armor_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "guntrick",
+    "name": "Gun Trick",
+    "description": "The glint of gunmetal in the sun, the narrowed eye as you squint at your next opponents. You may be a bit unorthodox compared to your other compatriots, but you are nonetheless just as effective.",
+    "points": 13,
+    "spells": [
+      { "id": "guntrick_ammospecial", "level": 0 },
+      { "id": "guntrick_ammofire", "level": 0 },
+      { "id": "guntrick_ammoblast", "level": 0 },
+      { "id": "guntrick_ammolast", "level": 0 },
+      { "id": "altus_aqua_crystal", "level": 0 },
+      { "id": "meguca_repairplate", "level": 0 }
+    ],
+    "skills": [ { "level": 2, "name": "gun" }, { "level": 2, "name": "pistol" }, { "level": 2, "name": "dodge" } ],
+    "traits": [ "meguca_guntrick" ],
+    "items": {
+      "both": {
+        "items": [ "tshirt", "cowboy_hat", "socks", "boots_western", "ZSG", "backpack", "wristwatch", "smart_phone", "medukarepair" ],
+        "entries": [
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "guntrickponcho", "ammo-item": "45colt_jhp", "charges": 50 },
+          { "item": "guntrick", "ammo-item": "45colt_jhp", "charges": 12, "container-item": "holster" }
+        ]
+      },
+      "male": [ "pants", "boxer_shorts" ],
+      "female": [ "skirt", "tank_top", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "meguca_panzerritter",
+    "name": "Panzerritter",
+    "description": "You never did have the head for more flashy magical stuff. Instead you trained with your magic to be able to wear heavier armor without penalty. As if in sympathy to your desire, a shield appeared on your arm, allowing you to store almost anything in it, with the caveat that you still had to carry the weight of all the items you put in it.",
+    "points": 13,
+    "spells": [ { "id": "altus_aqua_crystal", "level": 0 }, { "id": "meguca_repairplate", "level": 0 } ],
+    "skills": [ { "level": 2, "name": "gun" }, { "level": 2, "name": "melee" }, { "level": 2, "name": "dodge" } ],
+    "traits": [ "meguca_panzerritter" ],
+    "items": {
+      "both": {
+        "items": [ "tshirt", "socks", "sneakers", "ZSG", "backpack", "wristwatch", "smart_phone", "pr_shield", "medukarepair" ]
+      },
+      "male": [ "pants", "boxer_shorts" ],
+      "female": [ "skirt", "corset", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "meguca_rider",
+    "name": "Red Rider",
+    "description": "Chosen by the Gold Bridle of Bellorophon, you have become the Red Rider, saviour of the meek. With the Geist Horses in the special summonable yokes, you will ride ludicriously huge and heavy chariots to rival even the mightiest tanks.",
+    "points": 13,
+    "spells": [
+      { "id": "altus_aqua_crystal", "level": 0 },
+      { "id": "meguca_repairplate", "level": 0 },
+      { "id": "rr_horsecall", "level": 0 },
+      { "id": "rr_yoke", "level": 0 }
+    ],
+    "skills": [ { "level": 3, "name": "spellcraft" }, { "level": 2, "name": "mechanics" }, { "level": 2, "name": "driving" } ],
+    "items": {
+      "both": {
+        "items": [
+          "tshirt",
+          "socks",
+          "thigh_high_boots",
+          "ZSG",
+          "backpack",
+          "wristwatch",
+          "smart_phone",
+          "rideryoke_harness",
+          "magic_bridle",
+          "vest_leather",
+          "medukarepair"
+        ]
+      },
+      "male": [ "pants", "boxer_shorts" ],
+      "female": [ "skirt", "undershirt", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "meguca_dragonslayer",
+    "name": "Blast Burgundy",
+    "description": "You have dreamt of iron clad heroes all your life. Striving to make one yourself, you even augmented yourself for that moment. But, it was only shortly after the cataclysm happened that you suddenly and fervently starting clashing together parts. As if driven by divine will and pure instincts, you tooled together the Beowulf.",
+    "points": 13,
+    "traits": [ "meguca_dragonslayer" ],
+    "CBMs": [ "bio_ups", "bio_metabolics", "bio_tools", "bio_power_storage", "bio_power_armor_interface" ],
+    "spells": [ { "id": "altus_aqua_crystal", "level": 0 }, { "id": "meguca_repairplate", "level": 0 } ],
+    "skills": [ { "level": 2, "name": "spellcraft" }, { "level": 3, "name": "mechanics" }, { "level": 2, "name": "fabrication" } ],
+    "items": {
+      "both": {
+        "items": [
+          "power_armor_meguca",
+          "power_armor_helmet_meguca",
+          "power_armor_bscabbard_meguca",
+          "power_armor_back_holster_meguca",
+          "zweihander_meguca",
+          "plasma_gun_meguca",
+          "medukarepair"
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "meguca_machinemaiden",
+    "name": "Machine Maiden Eurydice",
+    "description": "You have died, but even when the light faded from your eyes, your feelings have not lessened. In that fleeting darkness however, a sharp thread of light cut through, asking you whether you still wanted to help. The answer was obvious. Soon you awoke in the body of a Machine Maiden, your memories of that red haired woman hazy and fleeting. With your body now of the stronger Machine Maidens, designed to fight in the most hazardous of environments, you have a clear path to follow.",
+    "points": 13,
+    "CBMs": [
+      "bio_ups",
+      "bio_climate",
+      "bio_armor_arms",
+      "bio_armor_head",
+      "bio_armor_legs",
+      "bio_armor_torso",
+      "bio_heatsink",
+      "bio_shock_absorber",
+      "bio_jointservo",
+      "bio_furnace",
+      "meguca_machine_maiden_smg",
+      "meguca_machine_maiden_halberd",
+      "machine_maiden_overload",
+      "meguca_machine_maiden_chassis"
+    ],
+    "skills": [ { "level": 2, "name": "gun" }, { "level": 3, "name": "mechanics" }, { "level": 2, "name": "fabrication" } ],
+    "items": { "both": { "items": [ "sheet" ] } }
+  },
+  {
+    "type": "profession",
+    "id": "kokushibo",
+    "name": "Demon of the Moon Palace",
+    "description": "Six hundred years you toiled, toiled under one who was not worthy. An abrupt phenomena shattered the shackles that tethered you to servitude. The emancipation came unanticipated, but such is the passage of life.",
+    "points": 13,
+    "spells": [
+      { "id": "blood_ignition", "level": 0 },
+      { "id": "blood_ambrosia", "level": 0 },
+      { "id": "blood_life_cradle", "level": 0 },
+      { "id": "blood_sword_world", "level": 0 }
+    ],
+    "traits": [ "KOKUSHIBO", "SUNBURN" ],
+    "skills": [ { "level": 3, "name": "melee" }, { "level": 2, "name": "cutting" }, { "level": 2, "name": "dodge" } ],
+    "items": {
+      "both": { "items": [ "haori", "kimono", "tabi_dress", "geta", "lunarblade" ] },
+      "male": [ "boxer_shorts" ],
+      "female": [ "undershirt", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "pickle",
+    "name": "Piccolò Pickle",
+    "description": "You survived the meteor. You survived the dinosaurs. You survived mankind. You will survive this disaster as well.",
+    "points": 13,
+    "items": { "both": { "items": [ "footrags", "loincloth", "ragpouch", "gloves_wraps" ] }, "female": [ "chestwrap" ] },
+    "skills": [
+      { "level": 3, "name": "melee" },
+      { "level": 2, "name": "throw" },
+      { "level": 4, "name": "unarmed" },
+      { "level": 1, "name": "survival" },
+      { "level": 1, "name": "cooking" },
+      { "level": 1, "name": "fabrication" },
+      { "level": 1, "name": "tailor" }
+    ],
+    "traits": [ "PICKLE", "ILLITERATE", "PSYCHOPATH", "SHOUT1" ]
+  },
+  {
+    "type": "profession",
+    "id": "chosenone",
+    "name": "Neo, The One",
+    "description": "They called you a madman but look where we are now. Will you escape the matrix again, Neo?",
+    "points": 13,
+    "CBMs": [
+      "bio_cqb",
+      "bio_ads",
+      "bio_magnet",
+      "bio_probability_travel",
+      "bio_railgun",
+      "bio_shockwave",
+      "bio_time_freeze",
+      "bio_uncanny_dodge",
+      "bio_metabolics",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII"
+    ],
+    "skills": [ { "level": 2, "name": "melee" }, { "level": 2, "name": "gun" }, { "level": 2, "name": "dodge" } ],
+    "items": {
+      "both": {
+        "items": [ "trenchcoat_survivor", "lsurvivor_pants", "lsurvivor_armor", "boots_lsurvivor", "survivor_vest", "fancy_sunglasses" ]
+      },
+      "male": [ "bikini_bottom" ],
+      "female": [ "undershirt", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "jotaro",
+    "name": "Jotaro Joestar",
+    "description": "A cruel fate has enveloped these lands, but with your Stand, you are nonplussed.",
+    "points": 13,
+    "traits": [ "JOJO" ],
+    "spells": [
+      { "id": "star_platinum", "level": 0 },
+      { "id": "the_world", "level": 0 },
+      { "id": "king_crimson", "level": 0 },
+      { "id": "maiden_heaven", "level": 0 }
+    ],
+    "skills": [
+      { "level": 2, "name": "dodge" },
+      { "level": 2, "name": "speech" },
+      { "level": 2, "name": "throw" },
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "spellcraft" }
+    ],
+    "items": {
+      "both": [
+        "postman_hat",
+        "postman_shirt",
+        "mbag",
+        "newest_newspaper",
+        "wristwatch",
+        "leather_belt",
+        "postman_shorts",
+        "knit_scarf",
+        "socks",
+        "sneakers"
+      ],
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "gojothegoat",
+    "name": "The Strongest",
+    "description": "Are you the strongest because you're the player? Or are you the player because you're the strongest?",
+    "points": 13,
+    "spells": [
+      { "id": "limitless_void", "level": 0 },
+      { "id": "reverse_curse", "level": 0 },
+      { "id": "even_curse", "level": 0 },
+      { "id": "curse_blue", "level": 0 },
+      { "id": "curse_red", "level": 0 },
+      { "id": "curse_purple", "level": 0 },
+      { "id": "boogie_woogie", "level": 0 }
+    ],
+    "traits": [ "GOJO" ],
+    "skills": [ { "level": 4, "name": "spellcraft" } ],
+    "items": {
+      "both": { "items": [ "socks", "sneakers", "backpack", "gojohands", "gojo_blindfold" ] },
+      "male": [ "bikini_bottom" ],
+      "female": [ "skirt", "bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "sukuna",
+    "name": "The Accursed Hegemon",
+    "description": "In centuries past, ye overcame mortality and achieved divinity. Albeit a demigod, you certainly were no longer human. However, forsooth it seems now nothing is either.",
+    "points": 13,
+    "traits": [ "SUKUNA" ],
+    "spells": [
+      { "id": "sukuna_slash", "level": 0 },
+      { "id": "malevolent_shrine", "level": 0 },
+      { "id": "summon_mahoraga", "level": 0 }
+    ],
+    "skills": [ { "level": 2, "name": "melee" }, { "level": 2, "name": "cutting" }, { "level": 4, "name": "spellcraft" } ],
+    "items": {
+      "both": { "items": [ "haori", "kariginu", "obi_gi", "tabi_dress", "geta", "bead_necklace", "bead_ear" ] },
+      "male": [ "bikini_bottom" ],
+      "female": [ "undershirt", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "toji",
+    "name": "Reluctant Renegade",
+    "description": "The patriarch was adamant that the bloodline remain pure and removed from taint. You were taint. Out of necessity, you massacred your clan. If heaven has eyes, how are you still alive? O heathen wretched may ye be, a wandering wicked beast.",
+    "points": 13,
+    "traits": [ "TOJI", "MUTAGEN_AVOID" ],
+    "skills": [
+      { "level": 5, "name": "melee" },
+      { "level": 5, "name": "cutting" },
+      { "level": 5, "name": "bashing" },
+      { "level": 4, "name": "dodge" },
+      { "level": 4, "name": "throw" }
+    ],
+    "items": {
+      "both": {
+        "items": [ "yukata_toji", "geta", "toji_blade" ],
+        "entries": [ { "item": "gyomei_flail", "custom-flags": [ "auto_wield" ] } ]
+      },
+      "male": [ "bikini_bottom" ],
+      "female": [ "undershirt", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "atlasthetitan",
+    "name": "Anachronistic Penitent",
+    "description": "For them, you did what you could. But, where did that leave you?",
+    "points": 13,
+    "traits": [ "ATLAS1" ]
+  },
+  {
+    "type": "profession",
+    "id": "heavenplunder",
+    "name": "Heaven Plunderer",
+    "description": "At first, it started small. But then you realized your god-given talent. One thing led to another, and now, here we are.",
+    "points": 13,
+    "traits": [ "BOOMBASTIC" ],
+    "skills": [
+      { "level": 2, "name": "computer" },
+      { "level": 2, "name": "fabrication" },
+      { "level": 2, "name": "speech" },
+      { "level": 2, "name": "throw" },
+      { "level": 2, "name": "spellcraft" }
+    ],
+    "spells": [
+      { "id": "summon_door", "level": 0 },
+      { "id": "summon_downspout", "level": 0 },
+      { "id": "summon_road", "level": 0 },
+      { "id": "summon_air", "level": 0 },
+      { "id": "summon_glass", "level": 0 },
+      { "id": "lovey_dovey", "level": 0 },
+      { "id": "angels_fear", "level": 0 },
+      { "id": "idle_gamble", "level": 0 }
+    ],
+    "items": {
+      "both": { "items": [ "socks", "dress_shoes", "stolenhammer", "resdaynskeletonkey", "portalglove" ] },
+      "male": [ "boxer_shorts", "tux", "tophat" ],
+      "female": [ "bra", "panties", "gown", "barrette", "jade_brooch" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "kars",
+    "name": "Penultimate Organism",
+    "description": "The culmination of a hundred-thousand years of toil has been nearly achieved. There is now only one step between you and the absolute.",
+    "points": 13,
+    "skills": [
+      { "level": 2, "name": "speech" },
+      { "level": 2, "name": "unarmed" },
+      { "level": 2, "name": "melee" }
+    ],
+    "spells": [
+      { "id": "becoming_human", "level": 0 },
+      { "id": "becoming_bear", "level": 0 },
+      { "id": "becoming_plant", "level": 0 },
+      { "id": "becoming_insect", "level": 0 },
+      { "id": "becoming_spider", "level": 0 },
+      { "id": "becoming_slime", "level": 0 },
+      { "id": "becoming_fish", "level": 0 },
+      { "id": "becoming_rat", "level": 0 },
+      { "id": "becoming_wolf", "level": 0 },
+      { "id": "becoming_cow", "level": 0 },
+      { "id": "becoming_cephalopod", "level": 0 },
+      { "id": "becoming_bird", "level": 0 },
+      { "id": "becoming_lizard", "level": 0 },
+      { "id": "becoming_prototype", "level": 0 },
+      { "id": "becoming_chimera", "level": 0 },
+      { "id": "becoming_fey", "level": 0 },
+      { "id": "becoming_mouse", "level": 0 }
+    ],
+    "items": {
+      "both": { "items": [ "footrags", "loincloth", "cloak_wool", "ragpouch", "gloves_wraps" ] },
+      "male": [ "bead_necklace" ],
+      "female": [ "bead_necklace", "chestwrap" ]
+    }
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "longrifle_flintlock_fake",
+    "copy-from": "rifle_flintlock",
+    "type": "GUN",
+    "name": "flintlock rifle",
+    "description": "fake monstergun",
+    "weight": "3700 g",
+    "volume": "1700 ml",
+    "relative": { "range": 2 },
+    "proportional": { "dispersion": 0.5, "reload": 2.0 }
+  }
+]

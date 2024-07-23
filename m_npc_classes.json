@@ -1,0 +1,232 @@
+[
+  {
+    "type": "npc_class",
+    "id": "NC_M_KOKUSHIBO",
+    "name": { "str": "Lunar Demon" },
+    "job_description": "An evil forgotten by time.",
+    "traits": [ [ "KOKUSHIBO", 100 ], { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
+    "bonus_str": { "rng": [ 3, 6 ] },
+    "bonus_dex": { "rng": [ 4, 8 ] },
+    "bonus_per": { "rng": [ 3, 6 ] },
+    "worn_override": "NC_M_KOKUSHIBO_worn",
+    "weapon_override": "NC_M_KOKUSHIBO_weapon",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 2 }, { "sum": [ { "dice": [ 2, 4 ] }, { "rng": [ -2, -4 ] } ] } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 3, 6 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 3, 6 ] } },
+      { "skill": "cutting", "bonus": { "rng": [ 4, 8 ] } }
+    ]
+  },
+  {
+    "id": "NC_M_KOKUSHIBO_worn",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "haori" }, { "item": "kimono" }, { "item": "tabi_dress" }, { "item": "geta" } ]
+  },
+  {
+    "id": "NC_M_KOKUSHIBO_weapon",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "lunarblade" } ]
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_M_PICKLE",
+    "name": { "str": "Prehistoric Sapien" },
+    "job_description": "An anachronistic human looking to make a comeback.",
+    "traits": [
+      [ "PICKLE", 100 ],
+      [ "ILLITERATE", 100 ],
+      [ "PSYCHOPATH", 100 ],
+      [ "SHOUT1", 100 ],
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 4, 8 ] },
+    "bonus_dex": { "rng": [ 4, 8 ] },
+    "bonus_per": { "rng": [ 3, 6 ] },
+    "worn_override": "NC_M_PICKLE_worn",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 2 }, { "sum": [ { "dice": [ 2, 4 ] }, { "rng": [ -2, -4 ] } ] } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 3, 6 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 3, 6 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 4, 8 ] } }
+    ]
+  },
+  {
+    "id": "NC_M_PICKLE_worn",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "footrags" }, { "item": "loincloth" }, { "item": "ragpouch" }, { "item": "gloves_wraps" } ]
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_M_NEO",
+    "name": { "str": "The Chosen One" },
+    "job_description": "An unusual man with abnormal abilities and questionable fashion.",
+    "traits": [ { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
+    "bionics": [
+      { "id": "bio_power_storage_mkII", "chance": 100 },
+      { "id": "bio_power_storage_mkII", "chance": 100 },
+      { "id": "bio_metabolics", "chance": 100 },
+      { "id": "bio_uncanny_dodge", "chance": 100 },
+      { "id": "bio_time_freeze", "chance": 100 },
+      { "id": "bio_shockwave", "chance": 100 },
+      { "id": "bio_railgun", "chance": 100 },
+      { "id": "bio_probability_travel", "chance": 100 },
+      { "id": "bio_magnet", "chance": 100 },
+      { "id": "bio_ads", "chance": 100 },
+      { "id": "bio_cqb", "chance": 100 }
+    ],
+    "bonus_str": { "rng": [ 1, 2 ] },
+    "bonus_dex": { "rng": [ 2, 4 ] },
+    "bonus_per": { "rng": [ 1, 2 ] },
+    "worn_override": "NC_M_NEO_worn",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 2 }, { "sum": [ { "dice": [ 2, 4 ] }, { "rng": [ -2, -4 ] } ] } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 3, 6 ] } },
+      { "skill": "gun", "bonus": { "rng": [ 2, 4 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 2, 4 ] } }
+    ]
+  },
+  {
+    "id": "NC_M_NEO_worn",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "trenchcoat_survivor" },
+      { "item": "lsurvivor_pants" },
+      { "item": "lsurvivor_armor" },
+      { "item": "boots_lsurvivor" },
+      { "item": "survivor_vest" },
+      { "item": "fancy_sunglasses" }
+    ]
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_M_JOJO",
+    "name": { "str": "Child of Jotaro" },
+    "job_description": "A flamboyant young adult with boundless charisma.",
+    "traits": [ [ "NPC_JOJO", 100 ], [ "JOJO", 100 ], { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
+    "bonus_str": { "rng": [ 2, 4 ] },
+    "bonus_dex": { "rng": [ 2, 4 ] },
+    "bonus_per": { "rng": [ 2, 4 ] },
+    "worn_override": "NC_M_JOJO_worn",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 2 }, { "sum": [ { "dice": [ 2, 4 ] }, { "rng": [ -2, -4 ] } ] } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 2, 4 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 2, 4 ] } },
+      { "skill": "speech", "bonus": { "rng": [ 3, 6 ] } }
+    ]
+  },
+  {
+    "id": "NC_M_JOJO_worn",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "postman_hat" },
+      { "item": "postman_shirt" },
+      { "item": "postman_shorts" },
+      { "item": "mbag" },
+      { "item": "sneakers" }
+    ]
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_M_GOJO",
+    "name": { "str": "The Strongest" },
+    "job_description": "Nah, I'd win.",
+    "traits": [ [ "NPC_GOJO", 100 ], { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
+    "bonus_str": { "rng": [ 4, 8 ] },
+    "bonus_dex": { "rng": [ 4, 8 ] },
+    "bonus_per": { "rng": [ 4, 8 ] },
+    "worn_override": "NC_M_GOJO_worn",
+    "weapon_override": "NC_M_GOJO_weapon",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 2 }, { "sum": [ { "dice": [ 2, 4 ] }, { "rng": [ -2, -4 ] } ] } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 3, 6 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 3, 6 ] } },
+      { "skill": "bashing", "bonus": { "rng": [ 4, 8 ] } }
+    ]
+  },
+  {
+    "id": "NC_M_GOJO_worn",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "gojo_blindfold" }, { "item": "bikini_bottom" }, { "item": "bra" } ]
+  },
+  {
+    "id": "NC_M_GOJO_weapon",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "gojohands" } ]
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_M_SUKUNA",
+    "name": { "str": "The Fraud" },
+    "job_description": "The King stands above the common crowd. Kneel.",
+    "traits": [ [ "NPC_SUKUNA", 100 ], { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
+    "bonus_str": { "rng": [ 4, 8 ] },
+    "bonus_dex": { "rng": [ 4, 8 ] },
+    "bonus_per": { "rng": [ 4, 8 ] },
+    "worn_override": "NC_M_SUKUNA_worn",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 2 }, { "sum": [ { "dice": [ 2, 4 ] }, { "rng": [ -2, -4 ] } ] } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 3, 6 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 3, 6 ] } }
+    ]
+  },
+  {
+    "id": "NC_M_SUKUNA_worn",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "haori" },
+      { "item": "kariginu" },
+      { "item": "obi_gi" },
+      { "item": "tabi_dress" },
+      { "item": "geta" },
+      { "item": "bead_necklace" },
+      { "item": "bead_ear" }
+    ]
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_M_TOJI",
+    "name": { "str": "Destitute Death" },
+    "job_description": "A strange enigma.",
+    "traits": [ [ "TOJI", 100 ], { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
+    "bonus_str": { "rng": [ 3, 6 ] },
+    "bonus_dex": { "rng": [ 4, 8 ] },
+    "bonus_per": { "rng": [ 3, 6 ] },
+    "worn_override": "NC_M_TOJI_worn",
+    "weapon_override": "NC_M_TOJI_weapon",
+    "carry_override": "NC_M_TOJI_carried",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 2 }, { "sum": [ { "dice": [ 2, 4 ] }, { "rng": [ -2, -4 ] } ] } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 4, 8 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 3, 6 ] } },
+      { "skill": "cutting", "bonus": { "rng": [ 3, 6 ] } },
+      { "skill": "bashing", "bonus": { "rng": [ 3, 6 ] } }
+    ]
+  },
+  {
+    "id": "NC_M_TOJI_worn",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "yukata" }, { "item": "geta" } ]
+  },
+  {
+    "id": "NC_M_TOJI_weapon",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "gyomei_flail" } ]
+  },
+  {
+    "id": "NC_M_TOJI_carried",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [ { "item": "toji_blade" } ]
+  }
+]

@@ -1,0 +1,430 @@
+[
+  {
+    "type": "technique",
+    "id": "tec_ccpunch",
+    "name": "CC Punch",
+    "messages": [ "You throw a thunderous punch at %s", "<npcname> throws a thunderous punch at %s" ],
+    "unarmed_allowed": true,
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.2 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_cccounterkick",
+    "name": "CC Spinning Kick",
+    "messages": [ "You counter %s with a spinning kick", "<npcname> throws a spinning kick counter at %s" ],
+    "skill_requirements": [ { "name": "unarmed", "level": 5 } ],
+    "unarmed_allowed": true,
+    "dodge_counter": true,
+    "crit_ok": true,
+    "knockback_dist": 1,
+    "knockback_spread": 1,
+    "stun_dur": 1,
+    "down_dur": 1,
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 }, { "stat": "damage", "type": "bash", "scale": 1.25 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_cc_rapid",
+    "name": "CC Lightning Jab",
+    "messages": [ "You punch like lightning at %s", "<npcname> punch like lightning at %s" ],
+    "skill_requirements": [ { "name": "unarmed", "level": 2 } ],
+    "unarmed_allowed": true,
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.5 },
+      { "stat": "damage", "type": "bash", "scale": 0.66 },
+      { "stat": "damage", "type": "cut", "scale": 0.66 },
+      { "stat": "damage", "type": "stab", "scale": 0.66 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_cc_crush",
+    "name": "CC Crush",
+    "messages": [ "You hit %s with a crushing blow.", "<npcname> hit %s with a crushing blow." ],
+    "skill_requirements": [ { "name": "unarmed", "level": 4 } ],
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "stun_dur": 1,
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.4 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_cc_spin",
+    "name": "CC Ground Stunner",
+    "unarmed_allowed": true,
+    "weighting": 2,
+    "messages": [
+      "You smash the ground, damaging %s and everyone nearby with the shockwave",
+      "<npcname> smash the ground, damaging %s and everyone nearby with the shockwave"
+    ],
+    "skill_requirements": [ { "name": "unarmed", "level": 6 } ],
+    "aoe": "spin",
+    "description": "Attack adjacent enemies with a damaging aoe.",
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 0.7 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tech_cc_shockwave",
+    "name": "CC Shock",
+    "unarmed_allowed": true,
+    "weighting": 2,
+    "messages": [
+      "You throw a crushing punch %s, damaging everyone near them with a shockwave",
+      "<npcname> throw a crushing punch %s, damaging everyone near them with a shockwave"
+    ],
+    "skill_requirements": [ { "name": "unarmed", "level": 5 } ],
+    "aoe": "wide",
+    "description": "Smash the enemy and emanate a shockwave in front of you.",
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 0.8 } ]
+  },
+  {
+    "type": "technique",
+    "id": "naegling_straight",
+    "name": "STRAIGHT CUT",
+    "messages": [ "You launch a straight cut at %s", "<npcname> launch a straight cut at at %s" ],
+    "description": "Slightly stronger normal attacks.",
+    "melee_allowed": true,
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.05 },
+      { "stat": "damage", "type": "cut", "scale": 1.0 },
+      { "stat": "damage", "type": "bash", "scale": 0.9 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "naegling_swift",
+    "name": "HALFSWORD",
+    "messages": [ "Grabbing the back of the blade, you cut %s swiftly", "<npcname> halfswords the blade at %s for a swift shallow cut" ],
+    "melee_allowed": true,
+    "description": "Faster, less damaging attack.",
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.025 },
+      { "stat": "damage", "type": "bash", "scale": 0.5 },
+      { "stat": "damage", "type": "cut", "scale": 0.5 },
+      { "stat": "damage", "type": "stab", "scale": 0.5 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "naegling_crit",
+    "name": "DRAGON SLAYER",
+    "messages": [ "You hit %s with a crushing blow.", "<npcname> hit %s with a crushing blow." ],
+    "melee_allowed": true,
+    "crit_tec": true,
+    "stun_dur": 1,
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.05 },
+      { "stat": "damage", "type": "cut", "scale": 1.2 },
+      { "stat": "damage", "type": "bash", "scale": 1.2 }
+    ],
+    "description": "Heavy attack that stuns, on crit only."
+  },
+  {
+    "type": "technique",
+    "id": "naegling_wide",
+    "name": "CLEAVE",
+    "unarmed_allowed": true,
+    "melee_allowed": true,
+    "weighting": 2,
+    "messages": [ "With a powerful swing, you cleave through %s", "<npcname> swings in a wide arc through %s" ],
+    "aoe": "wide",
+    "description": "Attack in a wide arc, hitting multiple targets",
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.05 },
+      { "stat": "damage", "type": "cut", "scale": 0.8 },
+      { "stat": "damage", "type": "bash", "scale": 0.8 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "naegling_impale",
+    "name": "PIERCE",
+    "melee_allowed": true,
+    "messages": [ "You slam through %s", "<npcname> pierces through %s" ],
+    "aoe": "impale",
+    "description": "Attack target and another one behind it",
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.05 },
+      { "stat": "damage", "type": "cut", "scale": 0.8 },
+      { "stat": "damage", "type": "bash", "scale": 0.8 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "first_moon",
+    "name": "First Moon: Where The Light Never Reaches",
+    "description": "You draw your sword and perform a singular horizontal slash following a crescent shape, creating numerous chaotic crescent blades along its path.",
+    "messages": [ "You perform a clean horizontal cleave at %s", "<npcname> hits %s" ],
+    "req_buffs": [ "buff_kokushibo_onhit" ],
+    "weighting": 3,
+    "crit_ok": true,
+    "melee_allowed": true,
+    "disarms": true,
+    "flat_bonuses": [
+      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.3 },
+      { "stat": "arpen", "type": "cold", "scaling-stat": "dex", "scale": 0.3 },
+      { "stat": "arpen", "type": "heat", "scaling-stat": "dex", "scale": 0.3 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "second_moon",
+    "name": "Second Moon: Moonstruck Dancing Petals",
+    "description": "You draw your sword and perform three crescent-shaped slashes while releasing a multitude of crescent moon blades along with them.",
+    "messages": [ "You spread outward a flurry of slashes at %s and those nearby", "<npcname> hits %s" ],
+    "req_buffs": [ "buff_kokushibo_onhit" ],
+    "weighting": 3,
+    "crit_ok": true,
+    "melee_allowed": true,
+    "stun_dur": 3,
+    "aoe": "spin",
+    "flat_bonuses": [
+      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.2 },
+      { "stat": "arpen", "type": "cold", "scaling-stat": "dex", "scale": 0.2 },
+      { "stat": "arpen", "type": "heat", "scaling-stat": "dex", "scale": 0.2 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "third_moon",
+    "name": "Third Moon: Chained Twin Moons",
+    "description": "You draw your sword and perform two extremely broad crescent-shaped slashes directly in front of yourself, from which a storm of smaller crescent moon blades are released.",
+    "messages": [
+      "You swing your blade fast enough to form a mirage and strike twice with ghost-like vengeance towards %s",
+      "<npcname> hits %s"
+    ],
+    "req_buffs": [ "buff_kokushibo_onhit" ],
+    "weighting": 3,
+    "crit_ok": true,
+    "melee_allowed": true,
+    "down_dur": 2,
+    "aoe": "impale",
+    "flat_bonuses": [
+      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.4 },
+      { "stat": "arpen", "type": "cold", "scaling-stat": "dex", "scale": 0.4 },
+      { "stat": "arpen", "type": "heat", "scaling-stat": "dex", "scale": 0.4 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "fourth_moon",
+    "name": "Fourth Moon: Lunar Surface Rain",
+    "description": "You draw your sword and create multiple long and curved slashes layered over one another, forming a vortex of crescent moon blades.",
+    "messages": [
+      "You strike the void in front of you innumerable times in the blink of an eye, causing fragmentary tears in space to ripple like overlapping tidal waves against %s, shredding them mercilessly",
+      "<npcname> hits %s"
+    ],
+    "req_buffs": [ "buff_kokushibo_onhit" ],
+    "weighting": 3,
+    "crit_ok": true,
+    "melee_allowed": true,
+    "knockback_dist": 3,
+    "knockback_spread": 3,
+    "down_dur": 3,
+    "aoe": "wide",
+    "flat_bonuses": [
+      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.6 },
+      { "stat": "arpen", "type": "cold", "scaling-stat": "dex", "scale": 0.6 },
+      { "stat": "arpen", "type": "heat", "scaling-stat": "dex", "scale": 0.6 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "fifth_moon",
+    "name": "Fifth Moon: Selenic Axis Alignment",
+    "description": "You draw your sword and perform a multitude of curved slashes reaching several footsteps in front of you that pour forth wild barrages of crescent moon blades capable of slicing up the surrounding area entirely.",
+    "messages": [
+      "You wave your sword in a fan-like rotation, causing countless jagged ethereal edges to erupt chaotically towards %s",
+      "<npcname> hits %s"
+    ],
+    "req_buffs": [ "buff_kokushibo_onhit" ],
+    "weighting": 2,
+    "crit_ok": true,
+    "melee_allowed": true,
+    "knockback_dist": 4,
+    "stun_dur": 4,
+    "aoe": "wide",
+    "flat_bonuses": [
+      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 1.4 },
+      { "stat": "arpen", "type": "cold", "scaling-stat": "dex", "scale": 1.4 },
+      { "stat": "arpen", "type": "heat", "scaling-stat": "dex", "scale": 1.4 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "sixth_moon",
+    "name": "Sixth Moon: Moonflower Blooming Season",
+    "description": "You draw your sword and perform a frontal crescent-shaped thrust that summons numerous straight and curved slashes that expand outward like a lotus blossom.",
+    "messages": [
+      "You split apart the ground beneath you as you inflict sporadic silvery threads that cut through %s in all directions",
+      "<npcname> hits %s"
+    ],
+    "req_buffs": [ "buff_kokushibo_onhit" ],
+    "weighting": 3,
+    "crit_ok": true,
+    "melee_allowed": true,
+    "powerful_knockback": true,
+    "knockback_dist": 5,
+    "knockback_spread": 5,
+    "stun_dur": 5,
+    "aoe": "spin",
+    "flat_bonuses": [
+      { "stat": "damage", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "arpen", "type": "cold", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "arpen", "type": "heat", "scaling-stat": "dex", "scale": 0.5 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "seventh_moon",
+    "name": "Seventh Moon: Inverted Terrestrial Scales",
+    "description": "You draw your sword and perform a massive long-ranged curved slash resembling a dragon's tail that leaves dozens of crescent moon blades along its path.",
+    "messages": [
+      "You smite the empty air directly ahead and the ensuing force aftershock cracks the fabric of space like a butterfly's wings as %s is unceremoniously pierced through by an unseen thrust",
+      "<npcname> hits %s"
+    ],
+    "req_buffs": [ "buff_kokushibo_onhit" ],
+    "weighting": 2,
+    "crit_ok": true,
+    "melee_allowed": true,
+    "knockback_follow": true,
+    "knockback_dist": 1,
+    "stun_dur": 1,
+    "aoe": "impale",
+    "flat_bonuses": [
+      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 3.0 },
+      { "stat": "arpen", "type": "cold", "scaling-stat": "dex", "scale": 3.0 },
+      { "stat": "arpen", "type": "heat", "scaling-stat": "dex", "scale": 3.0 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "eighth_moon",
+    "name": "Eighth Moon: Celestial Sea Winds",
+    "description": "You draw your sword and perform multiple aerial curved slashes in every direction, all in close proximity, that leave insurmountable crescent moon blades along its path.",
+    "messages": [
+      "You bring down your blade in a repetitive loop with elusive ease as progressively tumultuous phantoms of sharpness cleave apart %s and those nearby",
+      "<npcname> hits %s"
+    ],
+    "req_buffs": [ "buff_kokushibo_onhit" ],
+    "weighting": 2,
+    "crit_ok": true,
+    "melee_allowed": true,
+    "stun_dur": 1,
+    "aoe": "spin",
+    "flat_bonuses": [
+      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 6.0 },
+      { "stat": "arpen", "type": "cold", "scaling-stat": "dex", "scale": 6.0 },
+      { "stat": "arpen", "type": "heat", "scaling-stat": "dex", "scale": 6.0 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "ninth_moon",
+    "name": "Ninth Moon: Capitulation Against Forever",
+    "description": "You draw your sword and dash forward like a spirit as you burst forth agonizing gashes that wound the one in front of you before you appear behind them like a sallow apparition carved of moonlight.",
+    "messages": [
+      "You flit across the landscape with brisk litheness while swiftly and accurately delivering three slashes that sever the consciousness of %s",
+      "<npcname> hits %s"
+    ],
+    "req_buffs": [ "buff_kokushibo_onhit" ],
+    "weighting": 2,
+    "crit_ok": true,
+    "melee_allowed": true,
+    "dodge_counter": true,
+    "side_switch": true,
+    "stun_dur": 9,
+    "flat_bonuses": [
+      { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 9.0 },
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 9.0 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_pickle_knockback",
+    "name": "Savage Lunge",
+    "unarmed_allowed": true,
+    "flat_bonuses": [
+      { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 0.3 },
+      { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 0.3 }
+    ],
+    "knockback_dist": 3,
+    "knockback_follow": true,
+    "powerful_knockback": true,
+    "stun_dur": 3,
+    "down_dur": 3,
+    "crit_tec": true,
+    "weighting": 3,
+    "messages": [
+      "As manic trance-like fury thunders through your anima you let out a defiant roar and lunge like a surging tidal wave at %s",
+      "<npcname> blasts %s back"
+    ],
+    "description": "+0.3 bash damage and armor penetration per point of strength, down and stun 3 turns, knockback 3 tiles, knockback follow up, crit only"
+  },
+  {
+    "type": "technique",
+    "id": "tec_toji_knockback",
+    "name": "Monumental Hurtle",
+    "melee_allowed": true,
+    "flat_bonuses": [
+      { "stat": "damage", "type": "stab", "scaling-stat": "str", "scale": 0.2 },
+      { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 0.2 }
+    ],
+    "knockback_dist": 4,
+    "powerful_knockback": true,
+    "stun_dur": 4,
+    "down_dur": 4,
+    "crit_tec": true,
+    "weighting": 4,
+    "messages": [ "You launch a torrential strike at %s and hurtle them backwards", "<npcname> blasts %s back" ],
+    "description": "+0.2 stab damage and +0.2 bash armor penetration per point of strength, down and stun 4 turns, knockback 4 tiles, crit only"
+  },
+  {
+    "type": "technique",
+    "id": "tec_atombox_punch",
+    "name": "Atomic Punch",
+    "unarmed_allowed": true,
+    "unarmed_weapons_allowed" : true,
+    "powerful_knockback": true,
+    "flat_bonuses": [
+      { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 0.8 },
+      { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 0.8 }
+    ],
+    "knockback_dist": 8,
+    "stun_dur": 8,
+    "messages": [ "You throw an atomic punch at %s", "<npcname> hits %s" ],
+    "description": "stun 8 turns, knockback 8 tiles"
+  },
+  {
+    "type": "technique",
+    "id": "tec_atombox_serious_punch",
+    "name": "Serious Atomic Punch",
+    "unarmed_allowed": true,
+    "unarmed_weapons_allowed" : true,
+    "powerful_knockback": true,
+    "flat_bonuses": [
+      { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 1.6 },
+      { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 1.6 }
+    ],
+    "knockback_dist": 16,
+    "stun_dur": 16,
+    "messages": [ "You throw a serious atomic punch at %s", "<npcname> hits %s" ],
+    "description": "stun 16 turns, knockback 16 tiles"
+  },
+  {
+    "type": "technique",
+    "id": "tec_atombox_maximum_punch",
+    "name": "Maximum Atomic Punch",
+    "unarmed_allowed": true,
+    "unarmed_weapons_allowed" : true,
+    "powerful_knockback": true,
+    "flat_bonuses": [
+      { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 3.2 },
+      { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 3.2 }
+    ],
+    "knockback_dist": 32,
+    "stun_dur": 32,
+    "messages": [ "You throw a maximum atomic punch at %s", "<npcname> hits %s" ],
+    "description": "stun 32 turns, knockback 32 tiles"
+  }
+]

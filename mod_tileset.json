@@ -1,0 +1,262 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [
+      "Chibi_Ultica",
+      "UltimateCataclysm",
+      "MshockXottoplus",
+      "UNDEAD_PEOPLE",
+      "UNDEAD_PEOPLE_BASE",
+      "UNDEAD_PEOPLE_LEGACY",
+      "UlticaShell",
+      "MshockXottoplus12",
+      "MSX++DEAD_PEOPLE",
+      "MXplus12_for_cosmetics",
+      "MSXotto+"
+    ],
+    "tiles-new": [
+      {
+        "file": "starplatinum.png",
+        "tiles": [
+          {
+            "id": "mon_star",
+            "fg": [
+              { "weight": 10, "sprite": 19 },
+              { "weight": 10, "sprite": 20 },
+              { "weight": 10, "sprite": 21 },
+              { "weight": 10, "sprite": 22 }
+            ],
+            "animated": true
+          },
+          {
+            "id": "mon_mirage",
+            "fg": [
+              { "weight": 10, "sprite": 23 },
+              { "weight": 10, "sprite": 24 },
+              { "weight": 10, "sprite": 25 },
+              { "weight": 10, "sprite": 26 }
+            ],
+            "animated": true
+          }
+        ],
+        "//": "range 1 to 128",
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      }
+    ]
+  },
+  {
+    "type": "mod_tileset",
+    "compatibility": [
+      "Chibi_Ultica",
+      "UltimateCataclysm",
+      "MshockXottoplus",
+      "UNDEAD_PEOPLE",
+      "UNDEAD_PEOPLE_BASE",
+      "UNDEAD_PEOPLE_LEGACY",
+      "UlticaShell",
+      "MshockXottoplus12",
+      "MSX++DEAD_PEOPLE",
+      "MXplus12_for_cosmetics",
+      "MSXotto+"
+    ],
+    "tiles-new": [
+      {
+        "file": "sevensword.png",
+        "tiles": [
+          { "id": "resdaynskeletonkey", "fg": 10 },
+          { "id": "overlay_wielded_resdaynskeletonkey", "fg": 11 },
+          { "id": "overlay_wielded_fake_machinemaiden_smg", "fg": 14 },
+          { "id": "fake_machinemaiden_smg", "fg": 15 },
+          { "id": "megucahopewand", "fg": 58 },
+          { "id": "overlay_wielded_megucahopewand", "fg": 59 },
+          { "id": "toji_blade", "fg": 76 },
+          { "id": "overlay_wielded_toji_blade", "fg": 77 },
+          { "id": "overlay_worn_pr_shield", "fg": 84 },
+          { "id": "overlay_wielded_pr_shield", "fg": 84 },
+          { "id": "pr_shield", "fg": 85 },
+          { "id": "overlay_wielded_lunarblade", "fg": 122 },
+          { "id": "lunarblade", "fg": 123 },
+          { "id": "overlay_wielded_plasma_gun_meguca", "fg": 124 },
+          { "id": "plasma_gun_meguca", "fg": 125 },
+          { "id": "boombastic_explosion", "fg": 126 },
+          { "id": "overlay_wielded_boombastic_explosion", "fg": 127 },
+          { "id": "boombastic_explosion_act", "fg": 128 },
+          { "id": "overlay_wielded_boombastic_explosion_act", "fg": 129 },
+          { "id": "gojohands", "fg": 148 },
+          { "id": "overlay_wielded_gojohands", "fg": 149 },
+          { "id": "guntrickponcho", "fg": 152 },
+          { "id": "overlay_worn_guntrickponcho", "fg": 153 },
+          { "id": "megucarapiergun", "fg": 172 },
+          { "id": "overlay_wielded_megucarapiergun", "fg": 173 },
+          { "id": "fake_machinemaiden_halberd", "fg": 180 },
+          { "id": "overlay_wielded_fake_machinemaiden_halberd", "fg": 181 },
+          { "id": "zweihander_meguca", "fg": 191 },
+          { "id": "overlay_wielded_zweihander_meguca", "fg": 192 }
+        ],
+        "//": "range 1 to 128",
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      }
+    ]
+  },
+  {
+    "type": "mod_tileset",
+    "compatibility": [
+      "Chibi_Ultica",
+      "UltimateCataclysm",
+      "MshockXottoplus",
+      "UNDEAD_PEOPLE",
+      "UNDEAD_PEOPLE_BASE",
+      "UNDEAD_PEOPLE_LEGACY",
+      "UlticaShell",
+      "MshockXottoplus12",
+      "MSX++DEAD_PEOPLE",
+      "MXplus12_for_cosmetics",
+      "MSXotto+"
+    ],
+    "tiles-new": [
+      {
+        "file": "outfits.png",
+        "tiles": [
+          { "id": "megucafeelingarmor", "fg": 25 },
+          { "id": "overlay_worn_megucafeelingarmor", "fg": 24 },
+          { "id": "megucahopearmor", "fg": 41 },
+          { "id": "overlay_worn_megucahopearmor", "fg": 40 },
+          { "id": "overlay_wielded_megucafeelingknuckles", "fg": 92 },
+          { "id": "megucacalmarmor", "fg": 121 },
+          { "id": "overlay_worn_megucacalmarmor", "fg": 120 }
+        ],
+        "//": "range 1 to 128",
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      }
+    ]
+  },
+  {
+    "type": "mod_tileset",
+    "compatibility": [
+      "Chibi_Ultica",
+      "UltimateCataclysm",
+      "MshockXottoplus",
+      "UNDEAD_PEOPLE",
+      "UNDEAD_PEOPLE_BASE",
+      "UNDEAD_PEOPLE_LEGACY",
+      "UlticaShell",
+      "MshockXottoplus12",
+      "MSX++DEAD_PEOPLE",
+      "MXplus12_for_cosmetics",
+      "MSXotto+"
+    ],
+    "tiles-new": [
+      {
+        "file": "sixeyes.png",
+        "tiles": [ { "id": "overlay_mutation_KOKUSHIBO", "fg": 0 } ],
+        "//": "range 1 to 128",
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      }
+    ]
+  },
+  {
+    "type": "mod_tileset",
+    "compatibility": [
+      "Chibi_Ultica",
+      "UltimateCataclysm",
+      "MshockXottoplus",
+      "UNDEAD_PEOPLE",
+      "UNDEAD_PEOPLE_BASE",
+      "UNDEAD_PEOPLE_LEGACY",
+      "UlticaShell",
+      "MshockXottoplus12",
+      "MSX++DEAD_PEOPLE",
+      "MXplus12_for_cosmetics",
+      "MSXotto+"
+    ],
+    "tiles-new": [
+      {
+        "file": "maho.png",
+        "tiles": [ { "id": "mon_mahoraga", "fg": 4 } ],
+        "//": "range 1 to 128",
+        "sprite_width": 64,
+        "sprite_height": 80,
+        "sprite_offset_x": -16,
+        "sprite_offset_y": -48
+      }
+    ]
+  },
+  {
+    "type": "mod_tileset",
+    "compatibility": [
+      "Chibi_Ultica",
+      "UltimateCataclysm",
+      "MshockXottoplus",
+      "UNDEAD_PEOPLE",
+      "UNDEAD_PEOPLE_BASE",
+      "UNDEAD_PEOPLE_LEGACY",
+      "UlticaShell",
+      "MshockXottoplus12",
+      "MSX++DEAD_PEOPLE",
+      "MXplus12_for_cosmetics",
+      "MSXotto+"
+    ],
+    "tiles-new": [
+      {
+        "file": "gyomei.png",
+        "tiles": [ { "id": "gyomei_flail", "fg": 0 }, { "id": "overlay_wielded_gyomei_flail", "fg": 0 } ],
+        "//": "range 1 to 128",
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      }
+    ]
+  },
+  {
+    "type": "mod_tileset",
+    "compatibility": [
+      "Chibi_Ultica",
+      "UltimateCataclysm",
+      "MshockXottoplus",
+      "UNDEAD_PEOPLE",
+      "UNDEAD_PEOPLE_BASE",
+      "UNDEAD_PEOPLE_LEGACY",
+      "UlticaShell",
+      "MshockXottoplus12",
+      "MSX++DEAD_PEOPLE",
+      "MXplus12_for_cosmetics",
+      "MSXotto+"
+    ],
+    "tiles-new": [
+      {
+        "file": "moonblades.png",
+        "tiles": [
+          {
+            "id": "moonblade",
+            "fg": [
+              { "weight": 1, "sprite": 0 },
+              { "weight": 1, "sprite": 1 },
+              { "weight": 1, "sprite": 2 },
+              { "weight": 1, "sprite": 3 }
+            ],
+            "rotates": false,
+            "animated": true
+          }
+        ],
+        "//": "range 1 to 128",
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      }
+    ]
+  }
+]

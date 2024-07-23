@@ -1,0 +1,202 @@
+[
+  {
+    "type": "effect_type",
+    "id": "megucahopebless",
+    "name": [ "Prisma Pink Form" ],
+    "desc": [ "You are in the Prisma Pink form." ],
+    "apply_message": "Hope has come!",
+    "remove_message": "Your energy fades.",
+    "rating": "good",
+    "base_mods": { "int_mod": [ 15 ], "per_mod": [ 15 ], "dex_mod": [ 15 ], "str_mod": [ 15 ], "speed_mod": [ 20 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "megucacalmbless",
+    "name": [ "Altus Aqua Form" ],
+    "desc": [ "You are in the Altus Aqua form." ],
+    "apply_message": "Calm suffuses throughout you; punishment is upon the sinners!",
+    "remove_message": "Your energy fades.",
+    "rating": "good",
+    "base_mods": { "int_mod": [ 13 ], "per_mod": [ 15 ], "dex_mod": [ 20 ], "str_mod": [ 10 ], "speed_mod": [ 50 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "megucafeelingbless",
+    "name": [ "Crush Cream Form" ],
+    "desc": [ "You are in the Crush Cream form." ],
+    "apply_message": "Where evil reigns, Justice has come!",
+    "remove_message": "Your energy fades.",
+    "rating": "good",
+    "base_mods": { "int_mod": [ 10 ], "per_mod": [ 15 ], "dex_mod": [ 17 ], "str_mod": [ 22 ], "speed_mod": [ 15 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "megucafeelingoverdrive",
+    "name": [ "Crush Cream Overdrive" ],
+    "desc": [ "Your body is being pushed to the limits, exuding a large amount of mana." ],
+    "apply_message": "Your muscles flex as you start using your mana explosively.",
+    "remove_message": "Mana fades from your body as you return to normal.",
+    "rating": "good",
+    "base_mods": { "int_mod": [ 15 ], "per_mod": [ 20 ], "dex_mod": [ 25 ], "str_mod": [ 45 ], "speed_mod": [ 100 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "overdrivefatigue",
+    "name": [ "Overdrive Pains" ],
+    "desc": [ "Exerting your body to that extent wasn't good for your health." ],
+    "miss_messages": [ [ "Your body feels like its falling apart.", 1 ] ],
+    "rating": "bad",
+    "pain_sizing": true,
+    "hurt_sizing": true,
+    "main_parts_only": true,
+    "max_duration": "15 m",
+    "base_mods": { "pain_min": [ 1 ], "pain_chance": [ 130, 700 ], "hurt_min": [ 1 ], "hurt_chance": [ 350, 1700 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_ground_freeze",
+    "name": [ "Ground Freeze" ],
+    "desc": [ "Your legs are being frozen to the ground!" ],
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "apply_message": "Your legs freeze to the ground.",
+    "remove_message": "The ice weakens enough to break free.",
+    "base_mods": { "speed_mod": [ -100 ] },
+    "scaling_mods": { "speed_mod": [ -50 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "world_freeze",
+    "name": [ "Freeze Domain" ],
+    "desc": [ "The ultimate concept of 'freeze'. Even time itself is not exempt from this effect." ],
+    "apply_message": "The world slows down around you.",
+    "remove_message": "The world returns to normal speeds.",
+    "rating": "good",
+    "base_mods": { "dex_mod": [ 4 ], "speed_mod": [ 80000 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "powerarmormegucaon",
+    "name": [ "Beowulf's Strength" ],
+    "desc": [ "Beowulf is active. Woe to all that dares oppose you." ],
+    "apply_message": "The armor surges to life, and the weight of the world seems to fade.",
+    "remove_message": "The armor powers down, and your strength returns to normal.",
+    "rating": "good",
+    "base_mods": { "int_mod": [ 0 ], "per_mod": [ 0 ], "dex_mod": [ 0 ], "str_mod": [ 20 ], "speed_mod": [ 0 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_kokushibo",
+    "name": [ "Inhuman Disfigurement" ],
+    "desc": [ "The angst of the soul quenches mortal embers." ],
+    "base_mods": { "healing_rate": [ 444 ], "healing_head": [ 444 ], "healing_torso": [ 444 ] },
+    "removes_effects": [ "in_pit" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_blood_ambrosia",
+    "name": [ "Blood Ambrosia Vitality" ],
+    "desc": [ "The blood ambrosia soothes your obfuscated soul." ],
+    "removes_effects": [ "poison", "badpoison", "infected", "fungus", "bite", "bloodworms", "dermatik", "tapeworm", "brainworms", "paincysts" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_king_crimson",
+    "name": [ "King Crimson's Protection" ],
+    "desc": [ "King Crimson has granted you his scarlet shield." ],
+    "apply_message": "King Crimson bestows upon you his majesty.",
+    "remove_message": "King Crimson reclaims his boon.",
+    "flags": [
+      "EFFECT_INVISIBLE",
+      "EFFECT_STAB_IMMUNE",
+      "EFFECT_HEAT_IMMUNE",
+      "EFFECT_COLD_IMMUNE",
+      "EFFECT_ELECTRIC_IMMUNE",
+      "EFFECT_ACID_IMMUNE",
+      "EFFECT_BULLET_IMMUNE",
+      "EFFECT_CUT_IMMUNE",
+      "EFFECT_BASH_IMMUNE",
+      "EFFECT_BIO_IMMUNE"
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_wonder_of_u",
+    "name": [ "『Wonder of U』" ],
+    "desc": [ "Those that pursue and seek you out with malicious intent shall face calamity." ]
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_void",
+    "name": [ "Inside Limitless Void" ],
+    "desc": [ "Not a single coherent thought forms in your mind." ],
+    "apply_message": "Your thoughts slow to a crawl.",
+    "remove_message": "Your thoughts rush at you once more.",
+    "show_in_info": true,
+    "base_mods": { "speed_mod": [ -6400 ], "sleep_min": [ 6400 ], "stamina_min": [ -6400 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_gojo",
+    "name": [ "The Strongest" ],
+    "desc": [ "The world recognizes that you are the strongest." ],
+    "removes_effects": [ "effect_void", "blind", "deaf" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_shrine",
+    "name": [ "Deconstruction by Malevolent Shrine" ],
+    "desc": [ "The world itself seems to be cleaving you over and over." ],
+    "apply_message": "You feel your atoms trembling in trepidation.",
+    "remove_message": "Your atoms stop screaming from the torture.",
+    "show_in_info": true,
+    "base_mods": { "pain_min": [ 30 ], "hurt_min": [ 30 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_sukuna",
+    "name": [ "The Transcendent" ],
+    "desc": [ "The world recognizes that you are something more than itself." ],
+    "removes_effects": [ "effect_shrine" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_toji",
+    "name": [ "Heavenly Restriction" ],
+    "desc": [
+      "You have distanced yourself so much from the world that even Heaven is befuddled concerning your existence. Woe betide thee."
+    ],
+    "removes_effects": [ "downed", "bouldering", "grabbed", "stunned", "dazed" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_ethereal",
+    "name": [ "Partially Ethereal" ],
+    "desc": [ "You are nigh ethereal. But it would be a mistake to believe you were absolutely untouchable and untraceable. It is merely that your physique is wrought a bit differently. You are still mortal. Electric damage in particular would end your existence in an instant." ],
+    "apply_message": "A final breath escapes your lips as you fade away.",
+    "remove_message": "Your conscience sinks fathom by fathom into the flesh you shall now once again call home. A misty tear vaporizes as you descend the last steps of the immaterial.",
+    "removes_effects": [ "in_pit", "crushed", "grabbed", "downed", "bouldering", "stunned", "dazed", "blind", "deaf", "poison", "badpoison", "paralyzepoison", "venom_dmg", "venom_weaken", "infected", "teargas", "migo_atmosphere", "spores", "fungus", "bite", "bloodworms", "dermatik", "tapeworm", "brainworms", "paincysts", "bleed", "hot", "onfire", "smoke", "blisters", "hot_speed", "cold", "frostbite", "frostbite_recovery", "corroding" ],
+    "flags": [
+      "EFFECT_INVISIBLE",
+      "EFFECT_FEATHER_FALL",
+      "EFFECT_STAB_IMMUNE",
+      "EFFECT_HEAT_IMMUNE",
+      "EFFECT_COLD_IMMUNE",
+      "EFFECT_ACID_IMMUNE",
+      "EFFECT_BULLET_IMMUNE",
+      "EFFECT_CUT_IMMUNE",
+      "EFFECT_BASH_IMMUNE",
+      "EFFECT_BIO_IMMUNE"
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_sacrifice_soul",
+    "name": [ "Hollowed Out" ],
+    "desc": [ "It feels as if a titular yet tantamount aspect of you has burned away." ],
+    "apply_message": "No sobs break out from your lips but your soul is crying bitter tears.",
+    "remove_message": "A fragment of another you slowly wakes up as you dream endless dreams.",
+    "show_in_info": true,
+    "base_mods": { "sleep_min": [ 10800 ] }
+  }
+]
