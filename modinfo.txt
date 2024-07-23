@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "inpursuit",
+    "name": "In Pursuit of Heavenhood",
+    "authors": [ "10taiSenshi" ],
+    "maintainers": [ "Hyojason (Empyrean-Heaven)" ],
+    "description": "A mod built upon Hope Against The Dark version 4. It adds a host of new items, professions, spells, etc., for unique playstyles each playthrough. Please enjoy!",
+    "category": "content",
+    "dependencies": [ "bn", "MagicalNights" ],
+    "conflicts": [ "meguca" ]
+  }
+]
