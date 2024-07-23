@@ -26,7 +26,7 @@ Unique Trait: Prehistoric Girth (makes you HUGE, grants unarmed bonuses, gives y
 
 Unique Martial Art: Breath of the Wild (immense defense and block).
 
-Judgment: Among the ten professions, it is somewhere in the middle. You will bestrong enough to escape from the likes of Mahoraga and even last a while against him, but ultimately, the fact is Pickle is a pinnacle prehistoric human with no supernatural talents. In a normal setting he would be the apex, but here, he is mediocre.
+Judgment: Among the ten professions, it is somewhere in the middle. You will be strong enough to escape from the likes of Mahoraga and even last a while against him, but ultimately, the fact is Pickle is a pinnacle prehistoric human with no supernatural talents. In a normal setting he would be the apex, but here, he is mediocre.
 
 ### Neo, The One
 Description: They called you a madman but look where we are now. Will you escape the matrix again, Neo?
