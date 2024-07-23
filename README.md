@@ -6,3 +6,5 @@ This mod adds 10 new professions, countless new spells, mutations, and items for
 Read INDEX.md for information on professions, spells, items, and traits. Read NPCS.md for more information on NPC classes. HOMAGE.md lists the various sources that helped in this mod's creation.
 
 The .md files contain information on the features that were added by me.
+### Magiclysm and Magical Nights Compatibility
+The mod has modinfo.json and modinfo.txt. The former is for users of Magiclysm and the latter is for users of Magical Nights. If you play with Magical Nights, delete modinfo.json and rename modinfo.txt to modinfo.json. If you play with Magiclysm, no need to change anything.
