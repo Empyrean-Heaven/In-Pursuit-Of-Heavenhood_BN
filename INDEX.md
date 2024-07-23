@@ -77,7 +77,7 @@ Description: The patriarch was adamant that the bloodline remain pure and remove
 
 Basis: Toji Fushigoro from Jujutsu Kaisen.
 
-Unique Trait: Forgotten by Fate 『天外人』 (a powerful buff to dodge, can survive a long time without food, erases mana, and gives a 1 in 4 chance of unsafely teleporting closeby).
+Unique Trait: Forgotten by Fate 『天外人』 (a powerful buff to dodge, can survive a long time without food, erases mana, and gives a 1 in 4 chance of unsafely teleporting closeby when melee attacked).
 
 Unique Items: Soulrend (heals the player when it hits another, great throwing weapon), Mountain's Descent (a flail and axe tied together by a chain, an incredbily strong weapon), and Muted Yukata (a simple yukata with a surprisingly large storage space).
 
