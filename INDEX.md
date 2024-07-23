@@ -79,7 +79,7 @@ Basis: Toji Fushigoro from Jujutsu Kaisen.
 
 Unique Trait: Forgotten by Fate 『天外人』 (a powerful buff to dodge, can survive a long time without food, erases mana, and gives a 1 in 4 chance of unsafely teleporting closeby when melee attacked).
 
-Unique Items: Soulrend (heals the player when it hits another, great throwing weapon), Mountain's Descent (a flail and axe tied together by a chain, an incredbily strong weapon), and Muted Yukata (a simple yukata with a surprisingly large storage space).
+Unique Items: Soulrend (heals the player when attacking another, great throwing weapon), Mountain's Descent (a flail and axe tied together by a chain, an incredibly strong weapon), and Muted Yukata (a simple yukata with a surprisingly large storage space).
 
 Judgment: Second only to the Demon of the Moon Palace. He gains a new technique when using his weapons too. Can easily contend against Mahoraga, but not quite kill it swiftly. This profession cannot use mana magic or mutagens.
 
