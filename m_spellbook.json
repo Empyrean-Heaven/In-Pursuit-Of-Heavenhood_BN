@@ -1,29 +1,5 @@
 [
   {
-    "id": "megucabook",
-    "type": "GENERIC",
-    "category": "spellbooks",
-    "name": { "str": "Meguca Training Tool", "str_pl": "Meguca Training Tools" },
-    "//": "meduka book",
-    "description": "the book of debug megucas. if you see this, its a bug or you debugged this in.",
-    "weight": "585 g",
-    "volume": "250 ml",
-    "price": 5000,
-    "symbol": "?",
-    "color": "light_red",
-    "use_action": {
-      "type": "learn_spell",
-      "spells": [
-        "transformmegucahope",
-        "transformmegucacalm",
-        "transformmegucafeeling",
-        "altus_aqua_crystal",
-        "guntrick_ammospecial",
-        "guntrick_ammofire"
-      ]
-    }
-  },
-  {
     "id": "medukacrystalbook",
     "type": "GENERIC",
     "looks_like": "child_book",
@@ -100,5 +76,16 @@
     "symbol": "?",
     "color": "light_red",
     "use_action": { "type": "learn_spell", "spells": [ "rr_horsecall", "altus_aqua_crystal" ] }
+  },
+  {
+    "id": "spellbook_tier_2",
+    "type": "item_group",
+    "items": [
+      [ "medukacrystalbook", 20 ],
+      [ "prismpinkbook", 20 ],
+      [ "altusaquabook", 20 ],
+      [ "crushcreambook", 20 ],
+      [ "redriderbook", 20 ]
+    ]
   }
 ]
