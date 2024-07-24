@@ -82,12 +82,12 @@
       { "type": "bite", "cooldown": 10 },
       { "type": "spell", "spell_data": { "id": "dragon_breath_black", "min_level": 5 }, "cooldown": 20 }
     ],
+    "petfood": { "food": [ "CATTLEFOOD" ], "feed": "The %s seems to like you! It lets you pat its head and seems friendly." },
     "flags": [
       "SEES",
       "HEARS",
       "SMELLS",
       "ANIMAL",
-      "CATTLEFODDER",
       "PET_MOUNTABLE",
       "PATH_AVOID_DANGER_1",
       "WARM",
