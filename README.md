@@ -9,4 +9,4 @@ The .md files contain information on the features that were added by me.
 ### Magiclysm and Magical Nights Compatibility
 The mod has modinfo.json and modinfo.txt. The former is for users of Magiclysm and the latter is for users of Magical Nights. If you play with Magical Nights, delete modinfo.json and rename modinfo.txt to modinfo.json. If you play with Magiclysm, no need to change anything.
 ### Version History
-(2024.07.24.) Lockpick error, pet food errors all fixed.
+(2024.07.24.) Lockpick error, pet food errors all fixed. Cleaned up redundant code.
