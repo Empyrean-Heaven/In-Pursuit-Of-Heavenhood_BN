@@ -464,7 +464,7 @@
     "effect_str": "blast_trick",
     "energy_source": "MANA",
     "base_energy_cost": 500,
-    "final_energy_cost": 5000,
+    "final_energy_cost": 500,
     "base_casting_time": 6000,
     "final_casting_time": 6000
   },
