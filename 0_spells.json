@@ -86,10 +86,10 @@
     "effect": "spawn_item",
     "effect_str": "crystallized_mana",
     "energy_source": "MANA",
-    "base_energy_cost": 1000,
-    "final_energy_cost": 1000,
-    "base_casting_time": 30000,
-    "final_casting_time": 30000
+    "base_energy_cost": 200,
+    "final_energy_cost": 200,
+    "base_casting_time": 10000,
+    "final_casting_time": 10000
   },
   {
     "id": "meguca_repairplate",
@@ -106,10 +106,10 @@
     "effect": "spawn_item",
     "effect_str": "meguca_plate",
     "energy_source": "MANA",
-    "base_energy_cost": 1000,
-    "final_energy_cost": 1000,
-    "base_casting_time": 30000,
-    "final_casting_time": 30000
+    "base_energy_cost": 200,
+    "final_energy_cost": 200,
+    "base_casting_time": 10000,
+    "final_casting_time": 10000
   },
   {
     "id": "ph_spell1",
@@ -463,8 +463,8 @@
     "effect": "spawn_item",
     "effect_str": "blast_trick",
     "energy_source": "MANA",
-    "base_energy_cost": 1000,
-    "final_energy_cost": 1000,
+    "base_energy_cost": 500,
+    "final_energy_cost": 5000,
     "base_casting_time": 6000,
     "final_casting_time": 6000
   },
@@ -483,8 +483,8 @@
     "effect": "spawn_item",
     "effect_str": "last_trick",
     "energy_source": "MANA",
-    "base_energy_cost": 1200,
-    "final_energy_cost": 1200,
+    "base_energy_cost": 800,
+    "final_energy_cost": 800,
     "base_casting_time": 6000,
     "final_casting_time": 6000
   },
@@ -505,8 +505,8 @@
     "effect": "summon",
     "effect_str": "meguca_horse",
     "energy_source": "MANA",
-    "base_energy_cost": 1500,
-    "final_energy_cost": 1500,
+    "base_energy_cost": 1000,
+    "final_energy_cost": 1000,
     "base_casting_time": 6000,
     "final_casting_time": 6000
   },
