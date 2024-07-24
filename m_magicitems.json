@@ -204,9 +204,8 @@
     "material": [ "meguca_hope" ],
     "symbol": ";",
     "color": "light_gray",
-    "flags": [ "TRADER_AVOID", "SAFECRACK" ],
-    "qualities": [ [ "LOCKPICK", 20 ] ],
-    "use_action": { "type": "picklock", "pick_quality": 20 }
+    "flags": [ "TRADER_AVOID", "SAFECRACK", "PERFECT_LOCKPICK" ],
+    "qualities": [ [ "LOCKPICK", 20 ] ]
   },
   {
     "type": "GENERIC",
