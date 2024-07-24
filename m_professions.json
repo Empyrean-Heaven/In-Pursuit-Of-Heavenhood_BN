@@ -163,7 +163,7 @@
       { "id": "rr_horsecall", "level": 0 },
       { "id": "rr_yoke", "level": 0 }
     ],
-    "skills": [ { "level": 3, "name": "spellcraft" }, { "level": 2, "name": "mechanics" }, { "level": 2, "name": "driving" } ],
+    "skills": [ { "level": 3, "name": "spellcraft" }, { "level": 2, "name": "mechanics" }, { "level": 2, "name": "driving" }, { "level": 4, "name": "survival" } ],
     "items": {
       "both": {
         "items": [
@@ -175,7 +175,7 @@
           "wristwatch",
           "smart_phone",
           "rideryoke_harness",
-          "magic_bridle",
+          "cattlefodder",
           "vest_leather",
           "medukarepair"
         ]
