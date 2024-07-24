@@ -44,7 +44,8 @@
     "ammo": "crystallized_mana",
     "symbol": ";",
     "color": "yellow",
-    "use_action": [ "CATFOOD", "DOGFOOD", "BIRDFOOD", "CATTLEFODDER" ]
+    "use_action": [ "PETFOOD" ],
+    "petfood": [ "CATFOOD", "DOGFOOD", "BIRDFOOD", "CATTLEFOOD" ]
   },
   {
     "id": "medukarepair",
