@@ -154,7 +154,7 @@
     "price_postapoc": 50,
     "material": [ "meguca_hope" ],
     "symbol": "[",
-    "looks_like": "switchable_blindfold_on",
+    "looks_like": "blindfold",
     "color": "dark_gray",
     "covers": [ "eyes" ],
     "coverage": 95,
